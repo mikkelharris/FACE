@@ -4,8 +4,7 @@
  */
 package prog24178.project;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.io.*;
 import javax.swing.JOptionPane;
 
@@ -29,7 +28,7 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
 	
 	try
 	{
-	    boneTemplate = new PrintWriter(new BufferedWriter(new FileWriter("boneTemplate.dat", true)));
+	    boneTemplate = new PrintWriter(new BufferedWriter(new FileWriter("data/boneTemplate.dat", true)));
 
 	} catch (IOException ex)
 	{
@@ -127,27 +126,31 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
                 .addContainerGap()
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(layout.createSequentialGroup()
-                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(ddlBodyRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                            .add(chkIsFound))
+                        .add(chkIsFound)
                         .addContainerGap())
                     .add(layout.createSequentialGroup()
-                        .add(lblCaseNum)
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(txtCaseNum))
-                    .add(layout.createSequentialGroup()
                         .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(lblBoneName)
-                            .add(lblCondition))
-                        .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                        .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                            .add(txtBoneName)
-                            .add(txtCondition, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 317, Short.MAX_VALUE)))))
+                            .add(layout.createSequentialGroup()
+                                .add(lblCaseNum)
+                                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                                .add(txtCaseNum, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+                            .add(layout.createSequentialGroup()
+                                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                                    .add(lblBoneName)
+                                    .add(lblCondition))
+                                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING, false)
+                                    .add(txtCondition)
+                                    .add(txtBoneName))))
+                        .add(0, 0, Short.MAX_VALUE))))
             .add(layout.createSequentialGroup()
-                .add(44, 44, 44)
-                .add(btnAdd)
-                .add(27, 27, 27)
-                .add(btnDone)
+                .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+                    .add(layout.createSequentialGroup()
+                        .add(44, 44, 44)
+                        .add(btnAdd)
+                        .add(27, 27, 27)
+                        .add(btnDone))
+                    .add(ddlBodyRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
                 .add(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -157,9 +160,9 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                     .add(lblCaseNum)
                     .add(txtCaseNum, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
-                .add(2, 2, 2)
-                .add(ddlBodyRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(ddlBodyRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(2, 2, 2)
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                     .add(lblBoneName)
                     .add(txtBoneName, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
@@ -173,7 +176,7 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
                     .add(btnAdd)
                     .add(btnDone))
-                .addContainerGap(117, Short.MAX_VALUE))
+                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

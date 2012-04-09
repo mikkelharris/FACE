@@ -35,7 +35,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	
 	try
 	{
-	    boneTemp = new PrintWriter(new BufferedWriter(new FileWriter("bonesTemp.dat", true)));
+	    boneTemp = new PrintWriter(new BufferedWriter(new FileWriter("data/bonesTemp.dat", true)));
 
 	} catch (IOException ex)
 	{
@@ -46,7 +46,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    JOptionPane.ERROR_MESSAGE);
 	}
 	
-	createArray("bones.dat", caseNum);
+	createArray("data/bones.dat", caseNum);
 	for (int i = 0; i < boneArray.size(); i++)
 	{
 	    BoneInfo bone = (BoneInfo)boneArray.get(i);
@@ -69,7 +69,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
-	FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText());
+	FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
 	faceBoneDetails.pack();
 	FACEStart faceStart = new FACEStart();
 	faceStart.pack();
@@ -78,13 +78,12 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	{
 	    faceBoneDetails.setVisible(true);
 	    faceBoneDetails.pack();
-	    //this.setVisible(false);
 	    this.dispose();
 	}
 	else if (source == btnExitCase)
 	{
 	    faceStart.setVisible(true);
-	    this.setVisible(false);
+	    this.dispose();
 	}
     }
     
@@ -167,13 +166,13 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
             pnlDisplayLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlDisplayLayout.createSequentialGroup()
                 .addContainerGap()
-                .add(scrRemainsList, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 359, Short.MAX_VALUE)
+                .add(scrRemainsList, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 629, Short.MAX_VALUE)
                 .addContainerGap())
         );
         pnlDisplayLayout.setVerticalGroup(
             pnlDisplayLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlDisplayLayout.createSequentialGroup()
-                .add(scrRemainsList, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)
+                .add(scrRemainsList, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
                 .add(8, 8, 8))
         );
 
@@ -187,7 +186,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
         pnlCaseNumber.setLayout(pnlCaseNumberLayout);
         pnlCaseNumberLayout.setHorizontalGroup(
             pnlCaseNumberLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(org.jdesktop.layout.GroupLayout.TRAILING, lblCaseNumber, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 371, Short.MAX_VALUE)
+            .add(org.jdesktop.layout.GroupLayout.TRAILING, lblCaseNumber, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 641, Short.MAX_VALUE)
         );
         pnlCaseNumberLayout.setVerticalGroup(
             pnlCaseNumberLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -208,11 +207,11 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
         pnlButtonsLayout.setHorizontalGroup(
             pnlButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlButtonsLayout.createSequentialGroup()
-                .add(67, 67, 67)
+                .add(209, 209, 209)
                 .add(btnEdit, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 111, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .add(18, 18, 18)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
                 .add(btnExitCase)
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(198, Short.MAX_VALUE))
         );
 
         pnlButtonsLayout.linkSize(new java.awt.Component[] {btnEdit, btnExitCase}, org.jdesktop.layout.GroupLayout.HORIZONTAL);
@@ -231,57 +230,6 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[])
-    {
-	/*
-	 * Set the Nimbus look and feel
-	 */
-	//<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /*
-	 * If Nimbus (introduced in Java SE 6) is not available, stay with the
-	 * default look and feel. For details see
-	 * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-	 */
-	try
-	{
-	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels())
-	    {
-		if ("Nimbus".equals(info.getName()))
-		{
-		    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-		    break;
-		}
-	    }
-	} catch (ClassNotFoundException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (InstantiationException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (IllegalAccessException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (javax.swing.UnsupportedLookAndFeelException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseSummary.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	}
-	//</editor-fold>
-
-	/*
-	 * Create and display the form
-	 */
-	java.awt.EventQueue.invokeLater(new Runnable()
-	{
-
-	    public void run()
-	    {
-		new FACECaseSummary().setVisible(true);
-	    }
-	});
-    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnEdit;
     private javax.swing.JButton btnExitCase;

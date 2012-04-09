@@ -324,9 +324,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
-                      <Component id="pnlFUpdate" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnFUpdate" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="74" max="32767" attributes="0"/>
-                      <Component id="pnlFBack" min="-2" pref="88" max="-2" attributes="0"/>
+                      <Component id="btnFBack" min="-2" pref="88" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -336,20 +336,20 @@
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="pnlFUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="pnlFBack" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnFUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnFBack" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Component class="javax.swing.JButton" name="pnlFUpdate">
+            <Component class="javax.swing.JButton" name="btnFUpdate">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Update"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="pnlFBack">
+            <Component class="javax.swing.JButton" name="btnFBack">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Back"/>
               </Properties>

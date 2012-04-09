@@ -4,25 +4,59 @@
  */
 package prog24178.project;
 
+import java.awt.event.*;
+import java.util.ArrayList;
+
 /**
  *
  * @author mikkelharris
  */
-public class FACEBoneDetails extends javax.swing.JFrame
+public class FACEBoneDetails extends javax.swing.JFrame implements ActionListener, WindowListener
 {
 
     /**
      * Creates new form FACEBoneDetails
      */
-    public FACEBoneDetails(String caseNum)
+    public FACEBoneDetails(String caseNum, ArrayList boneArray)
     {
 	initComponents();
+	btnFBack.addActionListener(this);
+	btnFUpdate.addActionListener(this);
+	btnNFUpdate.addActionListener(this);
     }
-    public FACEBoneDetails()
+    public FACEBoneDetails(){}
+    @Override
+    public void actionPerformed(ActionEvent event)
     {
+	Object source = event.getSource();
 	
+	if (source == btnFBack)
+	{
+	    
+	}
+	else if (source == btnFUpdate)
+	{
+	    
+	}
+	else if (source == btnNFUpdate)
+	{
+	    
+	}
     }
-
+    @Override
+    public void windowDeactivated(WindowEvent event){}
+    @Override
+    public void windowActivated(WindowEvent event){}
+    @Override
+    public void windowDeiconified(WindowEvent event){}
+    @Override
+    public void windowIconified(WindowEvent event){}
+    @Override
+    public void windowClosed(WindowEvent event){}
+    @Override
+    public void windowClosing(WindowEvent event){}
+    @Override
+    public void windowOpened(WindowEvent event){}
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -53,8 +87,8 @@ public class FACEBoneDetails extends javax.swing.JFrame
         chkNFFound = new javax.swing.JCheckBox();
         pnlFound = new javax.swing.JPanel();
         pnlFButtons = new javax.swing.JPanel();
-        pnlFUpdate = new javax.swing.JButton();
-        pnlFBack = new javax.swing.JButton();
+        btnFUpdate = new javax.swing.JButton();
+        btnFBack = new javax.swing.JButton();
         pnlFRegion = new javax.swing.JPanel();
         ddlFRegion = new javax.swing.JComboBox();
         scrFRegion = new javax.swing.JScrollPane();
@@ -192,9 +226,9 @@ public class FACEBoneDetails extends javax.swing.JFrame
         pnlFound.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Found", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlFound.setLayout(new java.awt.BorderLayout());
 
-        pnlFUpdate.setText("Update");
+        btnFUpdate.setText("Update");
 
-        pnlFBack.setText("Back");
+        btnFBack.setText("Back");
 
         org.jdesktop.layout.GroupLayout pnlFButtonsLayout = new org.jdesktop.layout.GroupLayout(pnlFButtons);
         pnlFButtons.setLayout(pnlFButtonsLayout);
@@ -202,9 +236,9 @@ public class FACEBoneDetails extends javax.swing.JFrame
             pnlFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
-                .add(pnlFUpdate)
+                .add(btnFUpdate)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 74, Short.MAX_VALUE)
-                .add(pnlFBack, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 88, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(btnFBack, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 88, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         pnlFButtonsLayout.setVerticalGroup(
@@ -212,8 +246,8 @@ public class FACEBoneDetails extends javax.swing.JFrame
             .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFButtonsLayout.createSequentialGroup()
                 .add(0, 0, Short.MAX_VALUE)
                 .add(pnlFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                    .add(pnlFUpdate)
-                    .add(pnlFBack)))
+                    .add(btnFUpdate)
+                    .add(btnFBack)))
         );
 
         pnlFound.add(pnlFButtons, java.awt.BorderLayout.PAGE_END);
@@ -296,7 +330,7 @@ public class FACEBoneDetails extends javax.swing.JFrame
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlLabel, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .add(layout.createSequentialGroup()
-                .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 388, Short.MAX_VALUE)
+                .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(pnlFound, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 399, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -314,58 +348,9 @@ public class FACEBoneDetails extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[])
-    {
-	/*
-	 * Set the Nimbus look and feel
-	 */
-	//<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /*
-	 * If Nimbus (introduced in Java SE 6) is not available, stay with the
-	 * default look and feel. For details see
-	 * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-	 */
-	try
-	{
-	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels())
-	    {
-		if ("Nimbus".equals(info.getName()))
-		{
-		    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-		    break;
-		}
-	    }
-	} catch (ClassNotFoundException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACEBoneDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (InstantiationException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACEBoneDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (IllegalAccessException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACEBoneDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (javax.swing.UnsupportedLookAndFeelException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACEBoneDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	}
-	//</editor-fold>
-
-	/*
-	 * Create and display the form
-	 */
-	java.awt.EventQueue.invokeLater(new Runnable()
-	{
-
-	    public void run()
-	    {
-		new FACEBoneDetails().setVisible(true);
-	    }
-	});
-    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnFBack;
+    private javax.swing.JButton btnFUpdate;
     private javax.swing.JButton btnNFUpdate;
     private javax.swing.JCheckBox chkFFound;
     private javax.swing.JCheckBox chkNFFound;
@@ -381,11 +366,9 @@ public class FACEBoneDetails extends javax.swing.JFrame
     private javax.swing.JLabel lblCaseNum;
     private javax.swing.JList lstFRegion;
     private javax.swing.JList lstNFRegion;
-    private javax.swing.JButton pnlFBack;
     private javax.swing.JPanel pnlFButtons;
     private javax.swing.JPanel pnlFDetails;
     private javax.swing.JPanel pnlFRegion;
-    private javax.swing.JButton pnlFUpdate;
     private javax.swing.JPanel pnlFound;
     private javax.swing.JPanel pnlLabel;
     private javax.swing.JPanel pnlNF;

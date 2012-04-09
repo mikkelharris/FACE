@@ -38,7 +38,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	
 	try
 	{
-	    caseLog = new PrintWriter(new BufferedWriter(new FileWriter("case.dat", true)));
+	    caseLog = new PrintWriter(new BufferedWriter(new FileWriter("data/case.dat", true)));
 
 	} catch (IOException ex)
 	{
@@ -50,7 +50,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	}
 	try
 	{
-	    boneLog = new PrintWriter(new BufferedWriter(new FileWriter("bones.dat", true)));
+	    boneLog = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
 
 	} catch (IOException ex)
 	{
@@ -87,7 +87,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
 	    faceCaseSummary.pack();
 	    faceCaseSummary.setVisible(true);
-	    this.setVisible(false);
+	    this.dispose();
 	    
 	}
 	else if (source == btnBack)
@@ -95,7 +95,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
 	    faceStart.setVisible(true);
-	    this.setVisible(false);
+	    this.dispose();
 	}
     }
     
@@ -121,7 +121,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     {
 	try
 	{
-	    Scanner fileIn = new Scanner(new File("boneTemplate.dat"));
+	    Scanner fileIn = new Scanner(new File("data/boneTemplate.dat"));
 	    fileIn.useDelimiter(System.getProperty("line.separator"));
 	    
 	    while (fileIn.hasNext())
@@ -302,57 +302,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[])
-    {
-	/*
-	 * Set the Nimbus look and feel
-	 */
-	//<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /*
-	 * If Nimbus (introduced in Java SE 6) is not available, stay with the
-	 * default look and feel. For details see
-	 * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-	 */
-	try
-	{
-	    for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels())
-	    {
-		if ("Nimbus".equals(info.getName()))
-		{
-		    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-		    break;
-		}
-	    }
-	} catch (ClassNotFoundException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (InstantiationException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (IllegalAccessException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	} catch (javax.swing.UnsupportedLookAndFeelException ex)
-	{
-	    java.util.logging.Logger.getLogger(FACECaseDetails.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-	}
-	//</editor-fold>
-
-	/*
-	 * Create and display the form
-	 */
-	java.awt.EventQueue.invokeLater(new Runnable()
-	{
-
-	    public void run()
-	    {
-		new FACECaseDetails().setVisible(true);
-	    }
-	});
-    }
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnCreateCase;
