@@ -25,7 +25,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 	initComponents();
 	btnCreate.addActionListener(this);
 	ddlRetrieve.addActionListener(this);
-	createArray("case.dat");
+	createArray("data/case.dat");
     }
     @Override
     public void actionPerformed(ActionEvent event)
@@ -39,7 +39,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 	    FACECaseDetails faceCaseDetails = new FACECaseDetails();
 	    faceCaseDetails.pack();
 	    faceCaseDetails.setVisible(true);
-	    this.setVisible(false);    
+	    this.dispose();    
 	}
 	else if (source == ddlRetrieve)
 	{
@@ -48,7 +48,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 		FACECaseSummary faceSummary = new FACECaseSummary((String)ddlRetrieve.getSelectedItem());
 		faceSummary.pack();
 		faceSummary.setVisible(true);
-		this.setVisible(false);
+		this.dispose();
 	    }
 	    
 	}
