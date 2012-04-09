@@ -119,6 +119,28 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     }
     private ArrayList createBones(String caseNumber)
     {
+	try
+	{
+	    Scanner fileIn = new Scanner(new File("boneTemplate.dat"));
+	    fileIn.useDelimiter(System.getProperty("line.separator"));
+	    
+	    while (fileIn.hasNext())
+	    {
+		String record = fileIn.next();
+		String[] fields = record.split("\\s*\\|\\s*");
+		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2], 
+			fields[3], Boolean.parseBoolean(fields[4]));
+		boneArrayList.add(bone);
+		for (int i = 0; i < boneArrayList.size(); i++)
+		{
+		    BoneInfo boneTemp = (BoneInfo)boneArrayList.get(i);
+		    boneTemp.setCaseNumber(caseNumber);
+		}
+	    }
+	}
+	catch (IOException ex){}
+	/*
+	
 	BoneInfo frontal = new BoneInfo(caseNumber, "Head", "Frontal", "Please Enter Details", false);
 	boneArrayList.add(frontal);
 	BoneInfo parietalLeft = new BoneInfo(caseNumber, "Head", "Parietal Left", "Please Enter Details", false);
@@ -135,7 +157,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	boneArrayList.add(sphenoid);
 	BoneInfo ethmoid = new BoneInfo(caseNumber, "Head", "Ethmoid", "Please Enter Details", false);
 	boneArrayList.add(ethmoid);
-	
+	*/
 	return boneArrayList;
     }
     @Override
