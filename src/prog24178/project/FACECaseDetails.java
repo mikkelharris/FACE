@@ -18,9 +18,9 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 {
     private PrintWriter caseLog;
     private PrintWriter boneLog;
-    CaseInfo caseInfo;
-    BoneInfo boneInfo;
-    private ArrayList boneArrayList = new ArrayList();
+    private CaseInfo caseInfo;
+    private BoneInfo boneInfo;
+    private ArrayList<BoneInfo> boneArrayList = new ArrayList<BoneInfo>();
     
     /**
      * Creates new form FACECaseDetails
@@ -45,10 +45,10 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	{
 	    caseLog = new PrintWriter(new BufferedWriter(new FileWriter("data/case.dat", true)));
 
-	} catch (IOException ex)
+	} catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(null,
+	    JOptionPane.showMessageDialog(this,
 		    "Error accessing data file:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
@@ -57,104 +57,22 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	{
 	    boneLog = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
 
-	} catch (IOException ex)
+	} catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(null,
+	    JOptionPane.showMessageDialog(this,
 		    "Error accessing data file:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
     }
 
-    @Override
-    public void actionPerformed(ActionEvent event)
-    {
-	Object source = event.getSource();
-	
-	
-	Scanner caseIn;
-	
-	if (source == btnCreateCase)
-	{
-	    try
-	    {
-		if (ddlDay.getSelectedIndex() == 0)
-		{
-		    JOptionPane.showMessageDialog(null,
-		    "Please select a Day\n"
-		    , "Error",
-		    JOptionPane.ERROR_MESSAGE);
-		}
-		else 
-		{
-		    if (ddlMonth.getSelectedIndex() == 0)
-		    {
-			JOptionPane.showMessageDialog(null,
-			"Please select a Month\n"
-			, "Error",
-			JOptionPane.ERROR_MESSAGE);
-		    }
-		    else 
-		    {
-			if ("".equals(txtLocation.getText()))
-			{
-			    JOptionPane.showMessageDialog(null,
-			    "Please select a Location\n"
-			    , "Error",
-			    JOptionPane.ERROR_MESSAGE);
-			}
-			else 
-			{
-			    String caseNum = createCaseNumber();
-			    createCase(createCaseNumber(), (String)ddlDay.getSelectedItem(), 
-			    (String)ddlMonth.getSelectedItem(), 
-			    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
-			    caseLog.print(caseInfo.toFileString());
-			    printBonesArrayList(createBones(caseNum));
-
-			    caseLog.close();
-			    boneLog.close();
-
-			    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
-			    faceCaseSummary.pack();
-			    faceCaseSummary.setVisible(true);
-			    this.dispose();
-			}
-			
-		    }
-		}
-		
-		
-	    } catch (NumberFormatException ex)
-	    {
-		JOptionPane.showMessageDialog(null,
-		    "Please select a Year\n"
-		    , "Error",
-		    JOptionPane.ERROR_MESSAGE);
-	    }
-	    
-	    
-	    
-	    
-	}
-	else if (source == btnBack)
-	{
-	    FACEStart faceStart = new FACEStart();
-	    faceStart.pack();
-	    faceStart.setVisible(true);
-	    this.dispose();
-	}
-    }
+    
+    
     
     private String createCaseNumber()
     {
 	return (String)ddlDay.getSelectedItem() + (String)ddlMonth.getSelectedItem() + ddlYear.getSelectedItem().toString() + txtLocation.getText();
-    }
-    private Object createCase(String caseNumber, String caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
-    {
-	caseInfo = new CaseInfo(caseNumber, caseDateDay, caseDateMonth, caseDateYear, caseLocation);
-	return caseInfo;
     }
     
     private void printBonesArrayList(ArrayList boneArrayList)
@@ -186,8 +104,90 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 		}
 	    }
 	}
-	catch (IOException ex){}
+	catch (Exception ex)
+	{
+	    JOptionPane.showMessageDialog(this,
+		    "Error:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
+	}
 	return boneArrayList;
+    }
+    @Override
+    public void actionPerformed(ActionEvent event)
+    {
+	Object source = event.getSource();
+	
+	if (source == btnCreateCase)
+	{
+	    try
+	    {
+		if (ddlDay.getSelectedIndex() == 0)
+		{
+		    JOptionPane.showMessageDialog(this, "Please select a Day\n", 
+			    "Error", JOptionPane.ERROR_MESSAGE);
+		}
+		else 
+		{
+		    if (ddlMonth.getSelectedIndex() == 0)
+		    {
+			JOptionPane.showMessageDialog(this, "Please select a Month\n",
+				"Error", JOptionPane.ERROR_MESSAGE);
+		    }
+		    else 
+		    {
+			if ("".equals(txtLocation.getText()))
+			{
+			    JOptionPane.showMessageDialog(this, "Please enter a Location\n"
+			    , "Error", JOptionPane.ERROR_MESSAGE);
+			}
+			else 
+			{
+			    String caseNum = createCaseNumber();
+			    caseInfo = new CaseInfo(createCaseNumber(), (String)ddlDay.getSelectedItem(), 
+			    (String)ddlMonth.getSelectedItem(), 
+			    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
+			    
+			    caseLog.print(caseInfo.toFileString());
+			    printBonesArrayList(createBones(caseNum));
+
+			    caseLog.close();
+			    boneLog.close();
+
+			    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
+			    faceCaseSummary.pack();
+			    faceCaseSummary.setVisible(true);
+			    this.dispose();
+			}	
+		    }
+		}	
+	    } 
+	    catch (NumberFormatException ex)
+	    {
+		JOptionPane.showMessageDialog(this, "Please select a Year\n",
+			"Error", JOptionPane.ERROR_MESSAGE);
+	    } 
+	}
+	else if (source == btnBack)
+	{
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
+    }
+    @Override
+    public void windowClosing(WindowEvent event)
+    {
+	int exit = JOptionPane.showConfirmDialog(this, "Do you want to cancel creating a case?", 
+		"Cancel Case Creation", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	if (exit == JOptionPane.YES_OPTION)
+	{
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
     }
     @Override
     public void windowDeactivated(WindowEvent event){}
@@ -199,18 +199,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     public void windowIconified(WindowEvent event){}
     @Override
     public void windowClosed(WindowEvent event){}
-    @Override
-    public void windowClosing(WindowEvent event)
-    {
-	int exit = JOptionPane.showConfirmDialog(null, "Do you want to cancel creating a case?", "Cancel Case Creation", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	if (exit == JOptionPane.YES_OPTION)
-	{
-	    FACEStart faceStart = new FACEStart();
-	    faceStart.pack();
-	    faceStart.setVisible(true);
-	    this.dispose();
-	}
-    }
     @Override
     public void windowOpened(WindowEvent event){}
     /**

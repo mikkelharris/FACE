@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import javax.swing.DefaultListModel;
-import javax.swing.*;
+import javax.swing.JOptionPane;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
@@ -19,7 +19,8 @@ import javax.swing.event.ListSelectionListener;
  *
  * @author mikkelharris
  */
-public class FACEBoneDetails extends javax.swing.JFrame implements ActionListener, WindowListener, ListSelectionListener
+public class FACEBoneDetails extends javax.swing.JFrame implements 
+	ActionListener, WindowListener, ListSelectionListener
 {
     private DefaultListModel foundList;
     private DefaultListModel notFoundList;
@@ -30,7 +31,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     /**
      * Creates new form FACEBoneDetails
      */
-    public FACEBoneDetails(String caseNum, ArrayList boneArray)
+    public FACEBoneDetails(String caseNum, ArrayList<BoneInfo> boneArray)
     {
 	initComponents();
 	btnFBack.addActionListener(this);
@@ -39,6 +40,9 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	btnExit.addActionListener(this);
 	lstFRegion.addListSelectionListener(this);
 	lstNFRegion.addListSelectionListener(this);
+	ddlFRegion.addActionListener(this);
+	ddlNFRegion.addActionListener(this);
+	
 	this.addWindowListener(this);
 	
 	lblCaseNum.setText(caseNum);
@@ -49,43 +53,37 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	lstFRegion.setModel(foundList);
 	lstNFRegion.setModel(notFoundList);
 	
-	createModel(foundList, boneArrayListTemp, true);
-	createModel(notFoundList, boneArrayListTemp, false);
+	createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
+	createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
 	
 	try
 	{
 	    boneFile = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
-
 	} 
-	catch (IOException ex)
+	catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(null,
-		    "Error accessing data file:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this,"Error accessing data file:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
     }
     public FACEBoneDetails(){}
-    
-    private void createModel(DefaultListModel listModel, ArrayList arrayList, boolean status)
+    private void createModel(DefaultListModel listModel, ArrayList arrayList, 
+	    boolean status, String ddlString)
     {
 	for (int i = 0; i < arrayList.size(); i++)
 	{
 	    bone = (BoneInfo)arrayList.get(i);
 	    if (status == bone.isFoundStatus())
 	    {
-		listModel.addElement(bone.getBoneName());
+		if (ddlString.equals(bone.getBodyRegion()))
+		{
+		    listModel.addElement(bone.getBoneName());
+		}
 	    }
-	    
 	}
     }
-    public void clearModel(DefaultListModel listModel)
-    {
-	listModel.clear();
-    }
-    
-    public void updateFile(String casesString)
+    private void updateFile(String casesString)
     {
 	
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
@@ -95,7 +93,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	}
 	boneFile.close();
     }
-    
     @Override
     public void valueChanged(ListSelectionEvent event)
     {
@@ -155,55 +152,75 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	}
 	else if (source == btnFUpdate)
 	{
-	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    if (lstFRegion.getSelectedIndex() >= 0)
 	    {
-		bone = (BoneInfo)boneArrayListTemp.get(i);
-		if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
+		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
-		    bone.setCondition(txtFDetails.getText());
-		    bone.setFoundStatus(chkFFound.isSelected());
-		}   
+		    bone = (BoneInfo)boneArrayListTemp.get(i);
+		    if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex()))
+			    && bone.getBodyRegion().equals((String)ddlFRegion.getSelectedItem()))
+		    {
+			bone.setCondition(txtFDetails.getText());
+			bone.setFoundStatus(chkFFound.isSelected());
+		    }   
+		}
+		foundList.clear();
+		notFoundList.clear();
+		createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
+		createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+		txtFDetails.setText("");
+		chkFFound.setSelected(false);
 	    }
-	    foundList.clear();
-	    notFoundList.clear();
-	    createModel(foundList, boneArrayListTemp, true);
-	    createModel(notFoundList, boneArrayListTemp, false);
-	    txtFDetails.setText("");
-	    chkFFound.setSelected(false);
+	    else 
+	    {
+		JOptionPane.showMessageDialog(this, "Please select a bone before updating", 
+			"Bone not selected", JOptionPane.INFORMATION_MESSAGE);
+	    }
 	}
 	else if (source == btnNFUpdate)
 	{
-	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    if (lstNFRegion.getSelectedIndex() >= 0)
 	    {
-		bone = (BoneInfo)boneArrayListTemp.get(i);
-		if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
+		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
-		    bone.setCondition(txtNFDetails.getText());
-		    bone.setFoundStatus(chkNFFound.isSelected());
-		}   
+		    bone = (BoneInfo)boneArrayListTemp.get(i);
+		    if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex()))
+			    && bone.getBodyRegion().equals((String)ddlNFRegion.getSelectedItem()))
+		    {
+			bone.setCondition(txtNFDetails.getText());
+			bone.setFoundStatus(chkNFFound.isSelected());
+		    }   
+		}
+		foundList.clear();
+		notFoundList.clear();
+		createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
+		createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+		txtNFDetails.setText("");
+		chkNFFound.setSelected(false);
 	    }
+	    else 
+	    {
+		JOptionPane.showMessageDialog(this, "Please select a bone before updating", 
+			"Bone not selected", JOptionPane.INFORMATION_MESSAGE);
+
+	    }
+	}
+	else if (source == ddlFRegion)
+	{
 	    foundList.clear();
+	    createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
+	}
+	else if (source == ddlNFRegion)
+	{
 	    notFoundList.clear();
-	    createModel(foundList, boneArrayListTemp, true);
-	    createModel(notFoundList, boneArrayListTemp, false);
-	    txtNFDetails.setText("");
-	    chkNFFound.setSelected(false);
+	    createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
 	}
     }
-   
-    public void windowDeactivated(WindowEvent event){}
-    @Override
-    public void windowActivated(WindowEvent event){}
-    @Override
-    public void windowDeiconified(WindowEvent event){}
-    @Override
-    public void windowIconified(WindowEvent event){}
-    @Override
-    public void windowClosed(WindowEvent event){}
     @Override
     public void windowClosing(WindowEvent event)
     {
-	int exit = JOptionPane.showConfirmDialog(null, "Are you sure you wnat to exit the case?", "Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?", 
+		"Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
 	    updateFile("data/bones.dat");
@@ -213,6 +230,16 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	    this.dispose();
 	}
     }
+    @Override
+    public void windowDeactivated(WindowEvent event){}
+    @Override
+    public void windowActivated(WindowEvent event){}
+    @Override
+    public void windowDeiconified(WindowEvent event){}
+    @Override
+    public void windowIconified(WindowEvent event){}
+    @Override
+    public void windowClosed(WindowEvent event){}
     @Override
     public void windowOpened(WindowEvent event){}
     /**
@@ -264,7 +291,12 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
         pnlNF.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Not Found", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlNF.setLayout(new java.awt.BorderLayout());
 
-        ddlNFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        ddlNFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Region", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
+        ddlNFRegion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ddlNFRegionActionPerformed(evt);
+            }
+        });
 
         scrNFRegion.setViewportView(lstNFRegion);
 
@@ -384,7 +416,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 
         pnlFound.add(pnlFButtons, java.awt.BorderLayout.PAGE_END);
 
-        ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Region", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
 
         scrFRegion.setViewportView(lstFRegion);
 
@@ -476,6 +508,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void ddlNFRegionActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_ddlNFRegionActionPerformed
+    {//GEN-HEADEREND:event_ddlNFRegionActionPerformed
+	// TODO add your handling code here:
+    }//GEN-LAST:event_ddlNFRegionActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnExit;

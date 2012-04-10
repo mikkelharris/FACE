@@ -121,14 +121,27 @@
             <Component class="javax.swing.JComboBox" name="ddlNFRegion">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="4">
-                    <StringItem index="0" value="Item 1"/>
-                    <StringItem index="1" value="Item 2"/>
-                    <StringItem index="2" value="Item 3"/>
-                    <StringItem index="3" value="Item 4"/>
+                  <StringArray count="14">
+                    <StringItem index="0" value="Select Region"/>
+                    <StringItem index="1" value="Head"/>
+                    <StringItem index="2" value="Torso"/>
+                    <StringItem index="3" value="Spine"/>
+                    <StringItem index="4" value="Pelvis"/>
+                    <StringItem index="5" value="Right Arm"/>
+                    <StringItem index="6" value="Left Arm"/>
+                    <StringItem index="7" value="Right Hand"/>
+                    <StringItem index="8" value="Left Hand"/>
+                    <StringItem index="9" value="Right Leg"/>
+                    <StringItem index="10" value="Left Leg"/>
+                    <StringItem index="11" value="Right Foot"/>
+                    <StringItem index="12" value="Left Foot"/>
+                    <StringItem index="13" value=" "/>
                   </StringArray>
                 </Property>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ddlNFRegionActionPerformed"/>
+              </Events>
             </Component>
             <Container class="javax.swing.JScrollPane" name="scrNFRegion">
               <AuxValues>
@@ -360,11 +373,21 @@
             <Component class="javax.swing.JComboBox" name="ddlFRegion">
               <Properties>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                  <StringArray count="4">
-                    <StringItem index="0" value="Item 1"/>
-                    <StringItem index="1" value="Item 2"/>
-                    <StringItem index="2" value="Item 3"/>
-                    <StringItem index="3" value="Item 4"/>
+                  <StringArray count="14">
+                    <StringItem index="0" value="Select Region"/>
+                    <StringItem index="1" value="Head"/>
+                    <StringItem index="2" value="Torso"/>
+                    <StringItem index="3" value="Spine"/>
+                    <StringItem index="4" value="Pelvis"/>
+                    <StringItem index="5" value="Right Arm"/>
+                    <StringItem index="6" value="Left Arm"/>
+                    <StringItem index="7" value="Right Hand"/>
+                    <StringItem index="8" value="Left Hand"/>
+                    <StringItem index="9" value="Right Leg"/>
+                    <StringItem index="10" value="Left Leg"/>
+                    <StringItem index="11" value="Right Foot"/>
+                    <StringItem index="12" value="Left Foot"/>
+                    <StringItem index="13" value=" "/>
                   </StringArray>
                 </Property>
               </Properties>

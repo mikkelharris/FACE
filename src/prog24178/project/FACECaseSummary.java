@@ -6,8 +6,7 @@ package prog24178.project;
 
 import java.awt.event.*;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 import javax.swing.JOptionPane;
 
 /**
@@ -21,9 +20,9 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     private PrintWriter boneFileOverwrite;
     private PrintWriter boneFileAppend;
     
-    ArrayList<BoneInfo> boneArray = new ArrayList<BoneInfo>(210);
-    ArrayList<BoneInfo> completeBoneArray = new ArrayList<BoneInfo>();
-    ArrayList<BoneInfo> boneArrayListTemp = new ArrayList<BoneInfo>();
+    private ArrayList<BoneInfo> boneArray = new ArrayList<BoneInfo>(210);
+    private ArrayList<BoneInfo> completeBoneArray = new ArrayList<BoneInfo>();
+    private ArrayList<BoneInfo> boneArrayListTemp = new ArrayList<BoneInfo>();
     /**
      * Creates new form FACE1
      */
@@ -39,62 +38,29 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	txtRemainsList.setText(String.format("%-30s %-25s\n\n", "Bone","Details"));
 	
 	createArray("data/bones.dat", caseNum);
+	
 	for (int i = 0; i < boneArray.size(); i++)
 	{
 	    BoneInfo bone = (BoneInfo)boneArray.get(i);
 	    if (bone.isFoundStatus())
 	    {
 		txtRemainsList.append(String.format("%-30s %-25s\n",bone.getBoneName(), bone.getCondition()));
-	    }
-	    
-	    
+	    }   
 	}
-	
 	overWriteFile("data/bones.dat");
 	txtRemainsList.setEditable(false);
-	
     }
-    public FACECaseSummary()
-    {
-	initComponents();
-	btnEdit.addActionListener(this);
-	btnExitCase.addActionListener(this);
-	this.addWindowListener(this);
-    }
-
-    @Override
-   
-    public void actionPerformed(ActionEvent event)
-    {
-	Object source = event.getSource();
-	
-	if (source == btnEdit)
-	{
-	    FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
-	    faceBoneDetails.pack();
-	    faceBoneDetails.setVisible(true);
-	    this.dispose();
-	}
-	else if (source == btnExitCase)
-	{
-	    updateFile("data/bones.dat");
-	    FACEStart faceStart = new FACEStart();
-	    faceStart.pack();
-	    faceStart.setVisible(true);
-	    this.dispose();
-	}
-    }
-    
+    public FACECaseSummary(){}
     private void createArray(String casefile, String caseNum)
     {
 	try
 	{
 	    boneFileTemp = new PrintWriter(new BufferedWriter(new FileWriter("data/bonesTemp.dat", false)));
 
-	} catch (IOException ex)
+	} catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(null,
+	    JOptionPane.showMessageDialog(this,
 		    "Error accessing data file:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
@@ -120,22 +86,30 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    completeBoneArray.add(bone);
 		}
 	    }
+	    fileIn.close();
+	    fileIn = null;
 	}
-	catch (IOException ex){}
+	
+	catch (Exception ex)
+	{
+	    JOptionPane.showMessageDialog(this,
+		    "Error:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
+	}
 	boneFileTemp.close();
     }
-    
-    public void updateFile(String casesString)
+    private void updateFile(String casesString)
     {
 	try
 	{
 	    boneFileAppend = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
 
 	} 
-	catch (IOException ex)
+	catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(null,
+	    JOptionPane.showMessageDialog(this,
 		    "Error accessing data file:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
@@ -154,9 +128,12 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		boneArrayListTemp.add(bone);
 	    }
 	}
-	catch (IOException ex)
+	catch (Exception ex)
 	{
-	    
+	    JOptionPane.showMessageDialog(this,
+		    "Error:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
 	}
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
 	{
@@ -165,21 +142,58 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	}
 	boneFileAppend.close();
     }
-    
-    public void overWriteFile(String casefile)
+    private void overWriteFile(String casefile)
     {
 	try
 	{
 	    boneFileOverwrite = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", false)));
 	} 
-	catch (IOException e)
+	catch (Exception ex)
 	{
+	    JOptionPane.showMessageDialog(this,
+		    "Error:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
 	}
 	for (int i = 0; i < completeBoneArray.size(); i++)
 	{
 	    boneFileOverwrite.print(completeBoneArray.get(i).toFileString());
 	}
 	boneFileOverwrite.close();
+    }
+    @Override
+    public void actionPerformed(ActionEvent event)
+    {
+	Object source = event.getSource();
+	
+	if (source == btnEdit)
+	{
+	    FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
+	    faceBoneDetails.pack();
+	    faceBoneDetails.setVisible(true);
+	    this.dispose();
+	}
+	else if (source == btnExitCase)
+	{
+	    updateFile("data/bones.dat");
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
+    }
+    @Override
+    public void windowClosing(WindowEvent event)
+    {
+	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?", "Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	if (exit == JOptionPane.YES_OPTION)
+	{
+	    updateFile("data/bones.dat");
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
     }
     @Override
     public void windowDeactivated(WindowEvent event){}
@@ -191,19 +205,6 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     public void windowIconified(WindowEvent event){}
     @Override
     public void windowClosed(WindowEvent event){}
-    @Override
-    public void windowClosing(WindowEvent event)
-    {
-	int exit = JOptionPane.showConfirmDialog(null, "Are you sure you wnat to exit the case?", "Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	if (exit == JOptionPane.YES_OPTION)
-	{
-	    updateFile("data/bones.dat");
-	    FACEStart faceStart = new FACEStart();
-	    faceStart.pack();
-	    faceStart.setVisible(true);
-	    this.dispose();
-	}
-    }
     @Override
     public void windowOpened(WindowEvent event){}
     /**

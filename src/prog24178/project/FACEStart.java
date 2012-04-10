@@ -14,11 +14,11 @@ import javax.swing.JOptionPane;
  *
  * @author mikkelharris
  */
-public class FACEStart extends javax.swing.JFrame implements ActionListener, WindowListener
+public class FACEStart extends javax.swing.JFrame implements ActionListener, 
+	WindowListener
 {
-    ArrayList caseArray = new ArrayList(50);
+    private ArrayList<CaseInfo> caseArray = new ArrayList<CaseInfo>(50);
     
-
     /**
      * Creates new form FACEStart
      */
@@ -28,14 +28,42 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 	btnCreate.addActionListener(this);
 	ddlRetrieve.addActionListener(this);
 	this.addWindowListener(this);
-	createArray("data/case.dat");
+	createListArray("data/case.dat");
+    }
+    private void createListArray(String casefile)
+    {
+	try
+	{
+	    Scanner fileIn = new Scanner(new File(casefile));
+	    fileIn.useDelimiter(System.getProperty("line.separator"));
+	    
+	    while (fileIn.hasNext())
+	    {
+		String record = fileIn.next();
+		String[] fields = record.split("\\s*\\|\\s*");
+		CaseInfo caseInfo = new CaseInfo(fields[0], fields[1], fields[2], 
+			Integer.parseInt(fields[3]), fields[4]);
+		caseArray.add(caseInfo);
+	    }
+	    fileIn.close();
+	    fileIn = null;
+	}
+	catch (Exception ex)
+	{
+	    JOptionPane.showMessageDialog(this,
+		    "Error:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
+	}
+	for (int i = 0; i <= caseArray.size() - 1; i++)
+	{
+	    ddlRetrieve.addItem(caseArray.get(i).getCaseNum());
+	}
     }
     @Override
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
-	
-	
 	
 	if (source == btnCreate)
 	{
@@ -52,46 +80,19 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 		faceSummary.pack();
 		faceSummary.setVisible(true);
 		this.dispose();
-	    }
-	    
+	    } 
 	}
     }
-    private void createArray(String casefile)
+    @Override
+    public void windowClosing(WindowEvent event)
     {
-	try
+	int exit = JOptionPane.showConfirmDialog(this, "Do you want to close FACE?", 
+		"Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	if (exit == JOptionPane.YES_OPTION)
 	{
-	    Scanner fileIn = new Scanner(new File(casefile));
-	    fileIn.useDelimiter(System.getProperty("line.separator"));
-	    
-	    while (fileIn.hasNext())
-	    {
-		String record = fileIn.next();
-		
-		Scanner recordIn = new Scanner(record);
-		recordIn.useDelimiter("\\s*\\|\\s*");
-		String caseNum = recordIn.next();
-		String caseDateDay = recordIn.next();
-		String caseDateMonth = recordIn.next();
-		String caseDateYear = recordIn.next();
-		String caseLocation = recordIn.next();
-		
-		caseArray.add(caseNum);
-
-	    }
-	    fileIn.close();
-	    fileIn = null;
+	    System.exit(0);
 	}
-	catch (IOException ex)
-	{
-	    
-	}
-	for (int i = 0; i <= caseArray.size() - 1; i++)
-	{
-	    ddlRetrieve.addItem(caseArray.get(i));
-	}
-	
     }
-    
     @Override
     public void windowDeactivated(WindowEvent event){}
     @Override
@@ -101,18 +102,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
     @Override
     public void windowIconified(WindowEvent event){}
     @Override
-    public void windowClosed(WindowEvent event)
-    {
-    }
-    @Override
-    public void windowClosing(WindowEvent event)
-    {
-	int exit = JOptionPane.showConfirmDialog(null, "Do you want to close FACE?", "Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-	if (exit == JOptionPane.YES_OPTION)
-	{
-	    System.exit(0);
-	}
-    }
+    public void windowClosed(WindowEvent event){}
     @Override
     public void windowOpened(WindowEvent event){}
 
