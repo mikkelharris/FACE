@@ -33,9 +33,15 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	btnBack.addActionListener(this);
 	ddlDay.addActionListener(this);
 	ddlMonth.addActionListener(this);
+	ddlYear.addActionListener(this);
+	ddlYear.addItem((Object)"Year");
+	for (int i = 1900; i <= 2100; i++)
+	{
+	    ddlYear.addItem((Object)i);
+	}
 	
 	this.addWindowListener(this);
-	
+
 	try
 	{
 	    caseLog = new PrintWriter(new BufferedWriter(new FileWriter("data/case.dat", true)));
@@ -76,7 +82,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    String caseNum = createCaseNumber();
 	    createCase(createCaseNumber(), (String)ddlDay.getSelectedItem(), 
 		    (String)ddlMonth.getSelectedItem(), 
-		    (String)ddlYear.getSelectedItem(), txtLocation.getText());
+		    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
 	    caseLog.print(caseInfo.toFileString());
 	    
 	    printBonesArrayList(createBones(caseNum));
@@ -101,9 +107,9 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     
     private String createCaseNumber()
     {
-	return (String)ddlDay.getSelectedItem() + (String)ddlMonth.getSelectedItem() + (String)ddlYear.getSelectedItem() + txtLocation.getText();
+	return (String)ddlDay.getSelectedItem() + (String)ddlMonth.getSelectedItem() + ddlYear.getSelectedItem().toString() + txtLocation.getText();
     }
-    private Object createCase(String caseNumber, String caseDateDay, String caseDateMonth, String caseDateYear, String caseLocation)
+    private Object createCase(String caseNumber, String caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
     {
 	caseInfo = new CaseInfo(caseNumber, caseDateDay, caseDateMonth, caseDateYear, caseLocation);
 	return caseInfo;
@@ -184,8 +190,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     private void initComponents() {
 
         jScrollBar1 = new javax.swing.JScrollBar();
-        jPanel3 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         lblDate = new javax.swing.JLabel();
         lblLocation = new javax.swing.JLabel();
@@ -200,23 +204,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
         setTitle("Forensic Anthropology Case Evidence  (FACE) ");
         setSize(new java.awt.Dimension(600, 450));
 
-        jLabel1.setText("Case Details");
-
-        org.jdesktop.layout.GroupLayout jPanel3Layout = new org.jdesktop.layout.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(org.jdesktop.layout.GroupLayout.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .add(jLabel1)
-                .add(137, 137, 137))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(jPanel3Layout.createSequentialGroup()
-                .add(jLabel1)
-                .add(0, 8, Short.MAX_VALUE))
-        );
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Case Details", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
 
         lblDate.setText("Date:");
 
@@ -229,8 +217,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
         ddlDay.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Day", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
 
         ddlMonth.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Month", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }));
-
-        ddlYear.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Year", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020" }));
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -288,15 +274,11 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(jPanel3, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(layout.createSequentialGroup()
-                .add(jPanel3, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(jPanel1, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 103, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
+            .add(jPanel1, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE)
         );
 
         pack();
@@ -308,9 +290,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     private javax.swing.JComboBox ddlDay;
     private javax.swing.JComboBox ddlMonth;
     private javax.swing.JComboBox ddlYear;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JLabel lblDate;
     private javax.swing.JLabel lblLocation;

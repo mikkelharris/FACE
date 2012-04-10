@@ -30,51 +30,24 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
           <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" pref="103" max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="0" pref="133" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JPanel" name="jPanel3">
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Case Details"/>
-          </Properties>
-        </Component>
-      </SubComponents>
-    </Container>
     <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder justification="2" title="Case Details"/>
+          </Border>
+        </Property>
+      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -222,30 +195,7 @@
         <Component class="javax.swing.JComboBox" name="ddlYear">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="22">
-                <StringItem index="0" value="Year"/>
-                <StringItem index="1" value="2000"/>
-                <StringItem index="2" value="2001"/>
-                <StringItem index="3" value="2002"/>
-                <StringItem index="4" value="2003"/>
-                <StringItem index="5" value="2004"/>
-                <StringItem index="6" value="2005"/>
-                <StringItem index="7" value="2006"/>
-                <StringItem index="8" value="2007"/>
-                <StringItem index="9" value="2008"/>
-                <StringItem index="10" value="2009"/>
-                <StringItem index="11" value="2010"/>
-                <StringItem index="12" value="2011"/>
-                <StringItem index="13" value="2012"/>
-                <StringItem index="14" value="2013"/>
-                <StringItem index="15" value="2014"/>
-                <StringItem index="16" value="2015"/>
-                <StringItem index="17" value="2016"/>
-                <StringItem index="18" value="2017"/>
-                <StringItem index="19" value="2018"/>
-                <StringItem index="20" value="2019"/>
-                <StringItem index="21" value="2020"/>
-              </StringArray>
+              <StringArray count="0"/>
             </Property>
           </Properties>
         </Component>

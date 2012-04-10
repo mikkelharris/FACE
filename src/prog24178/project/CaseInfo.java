@@ -15,7 +15,7 @@ public class CaseInfo
     private String caseNumber;
     private String caseDateDay;
     private String caseDateMonth;
-    private String caseDateYear;
+    private int caseDateYear;
     private String caseLocation;
     
     
@@ -23,7 +23,7 @@ public class CaseInfo
     {
     }
     
-    public CaseInfo(String caseNumber, String caseDateDay, String caseDateMonth, String caseDateYear, String caseLocation)
+    public CaseInfo(String caseNumber, String caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
     {
 	setCaseNum(caseNumber);
 	setCaseDateDay(caseDateDay);
@@ -53,12 +53,12 @@ public class CaseInfo
 	this.caseDateMonth = caseDateMonth;
     }
 
-    public String getCaseDateYear()
+    public int getCaseDateYear()
     {
 	return caseDateYear;
     }
 
-    public void setCaseDateYear(String caseDateYear)
+    public void setCaseDateYear(int caseDateYear)
     {
 	this.caseDateYear = caseDateYear;
     }

@@ -69,27 +69,21 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
-	FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
-	faceBoneDetails.pack();
-	FACEStart faceStart = new FACEStart();
-	faceStart.pack();
 	
 	if (source == btnEdit)
 	{
-	    faceBoneDetails.setVisible(true);
+	    FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
 	    faceBoneDetails.pack();
+	    faceBoneDetails.setVisible(true);
 	    this.dispose();
 	}
 	else if (source == btnExitCase)
 	{
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
 	    faceStart.setVisible(true);
 	    this.dispose();
 	}
-    }
-    
-    private String readArray(String casefile)
-    {
-	return "";
     }
     
     private void createArray(String casefile, String caseNum)
@@ -224,6 +218,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
                     .add(btnExitCase, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 23, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
+
+        pnlButtonsLayout.linkSize(new java.awt.Component[] {btnEdit, btnExitCase}, org.jdesktop.layout.GroupLayout.VERTICAL);
 
         getContentPane().add(pnlButtons, java.awt.BorderLayout.PAGE_END);
 

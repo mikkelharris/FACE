@@ -6,13 +6,21 @@ package prog24178.project;
 
 import java.awt.event.*;
 import java.util.ArrayList;
+import javax.swing.DefaultListModel;
+import javax.swing.JList;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 /**
  *
  * @author mikkelharris
  */
-public class FACEBoneDetails extends javax.swing.JFrame implements ActionListener, WindowListener
+public class FACEBoneDetails extends javax.swing.JFrame implements ActionListener, WindowListener, ListSelectionListener
 {
+    private DefaultListModel foundList;
+    private DefaultListModel notFoundList;
+    private BoneInfo bone;
+    private ArrayList boneArrayListTemp;
 
     /**
      * Creates new form FACEBoneDetails
@@ -23,8 +31,75 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	btnFBack.addActionListener(this);
 	btnFUpdate.addActionListener(this);
 	btnNFUpdate.addActionListener(this);
+	lstFRegion.addListSelectionListener(this);
+	lstNFRegion.addListSelectionListener(this);
+	
+	lblCaseNum.setText(caseNum);
+	boneArrayListTemp = boneArray;
+	
+	foundList = new DefaultListModel();
+	notFoundList = new DefaultListModel();
+	lstFRegion.setModel(foundList);
+	lstNFRegion.setModel(notFoundList);
+	
+	createModel(foundList, boneArrayListTemp, true);
+	createModel(notFoundList, boneArrayListTemp, false);	
     }
     public FACEBoneDetails(){}
+    
+    private void createModel(DefaultListModel listModel, ArrayList arrayList, boolean status)
+    {
+	for (int i = 0; i < arrayList.size(); i++)
+	{
+	    bone = (BoneInfo)arrayList.get(i);
+	    if (status == bone.isFoundStatus())
+	    {
+		listModel.addElement(bone.getBoneName());
+	    }
+	    
+	}
+    }
+    public void clearModel(DefaultListModel listModel)
+    {
+	listModel.clear();
+    }
+    
+    @Override
+    public void valueChanged(ListSelectionEvent event)
+    {
+	Object source = event.getSource();
+	
+	if (source == lstFRegion)
+	{
+	    if (lstFRegion.getSelectedIndex() >= 0)
+	    {
+		chkFFound.setSelected(true);
+		for (int i = 0; i < boneArrayListTemp.size(); i++)
+		{
+		    bone = (BoneInfo)boneArrayListTemp.get(i);
+		    if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
+		    {
+			txtFDetails.setText(bone.getCondition());
+		    }   
+		}
+	    }
+	}
+	else if (source == lstNFRegion)
+	{
+	    if (lstNFRegion.getSelectedIndex() >= 0)
+	    {
+		chkNFFound.setSelected(false);
+		for (int i = 0; i < boneArrayListTemp.size(); i++)
+		{
+		    bone = (BoneInfo)boneArrayListTemp.get(i);
+		    if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
+		    {
+			txtNFDetails.setText(bone.getCondition());
+		    }   
+		}
+	    }
+	}
+    }
     @Override
     public void actionPerformed(ActionEvent event)
     {
@@ -32,15 +107,46 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	
 	if (source == btnFBack)
 	{
-	    
+	    FACECaseSummary faceCaseSummary = new FACECaseSummary(lblCaseNum.getText());
+	    faceCaseSummary.pack();
+	    faceCaseSummary.setVisible(true);
+	    this.dispose();
 	}
 	else if (source == btnFUpdate)
 	{
-	    
+	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    {
+		bone = (BoneInfo)boneArrayListTemp.get(i);
+		if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
+		{
+		    bone.setCondition(txtFDetails.getText());
+		    bone.setFoundStatus(chkFFound.isSelected());
+		}   
+	    }
+	    foundList.clear();
+	    notFoundList.clear();
+	    createModel(foundList, boneArrayListTemp, true);
+	    createModel(notFoundList, boneArrayListTemp, false);
+	    txtFDetails.setText("");
+	    chkFFound.setSelected(false);
 	}
 	else if (source == btnNFUpdate)
 	{
-	    
+	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    {
+		bone = (BoneInfo)boneArrayListTemp.get(i);
+		if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
+		{
+		    bone.setCondition(txtNFDetails.getText());
+		    bone.setFoundStatus(chkNFFound.isSelected());
+		}   
+	    }
+	    foundList.clear();
+	    notFoundList.clear();
+	    createModel(foundList, boneArrayListTemp, true);
+	    createModel(notFoundList, boneArrayListTemp, false);
+	    txtNFDetails.setText("");
+	    chkNFFound.setSelected(false);
 	}
     }
     @Override
@@ -168,7 +274,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(ddlNFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 24, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(scrNFRegion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 214, Short.MAX_VALUE))
+                .add(scrNFRegion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE))
         );
 
         pnlNF.add(pnlNFRegion, java.awt.BorderLayout.LINE_START);
@@ -182,7 +288,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             .add(pnlNFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
                 .add(btnNFUpdate)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(175, Short.MAX_VALUE))
         );
         pnlNFButtonsLayout.setVerticalGroup(
             pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -210,7 +316,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addContainerGap()
                 .add(chkNFFound)
                 .addContainerGap())
-            .add(scrNFDetails)
+            .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
         );
         pnlNFDetailsLayout.setVerticalGroup(
             pnlNFDetailsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -218,7 +324,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .add(20, 20, 20)
                 .add(chkNFFound)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 217, Short.MAX_VALUE))
+                .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE))
         );
 
         pnlNF.add(pnlNFDetails, java.awt.BorderLayout.CENTER);
@@ -237,7 +343,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             .add(pnlFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
                 .add(btnFUpdate)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 74, Short.MAX_VALUE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 93, Short.MAX_VALUE)
                 .add(btnFBack, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 88, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -279,12 +385,12 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addContainerGap()
                 .add(jLabel3)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(ddlFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 28, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(216, Short.MAX_VALUE))
+                .add(ddlFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(199, Short.MAX_VALUE))
             .add(pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                 .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFRegionLayout.createSequentialGroup()
-                    .add(0, 58, Short.MAX_VALUE)
-                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 214, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                    .add(0, 59, Short.MAX_VALUE)
+                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 195, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
         );
 
         pnlFound.add(pnlFRegion, java.awt.BorderLayout.LINE_START);
@@ -303,14 +409,14 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
         pnlFDetailsLayout.setHorizontalGroup(
             pnlFDetailsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlFDetailsLayout.createSequentialGroup()
+                .addContainerGap()
                 .add(pnlFDetailsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFDetailsLayout.createSequentialGroup()
-                        .add(4, 4, 4)
-                        .add(scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 260, Short.MAX_VALUE))
                     .add(pnlFDetailsLayout.createSequentialGroup()
-                        .addContainerGap()
                         .add(chkFFound)
-                        .add(0, 153, Short.MAX_VALUE)))
+                        .add(0, 0, Short.MAX_VALUE))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFDetailsLayout.createSequentialGroup()
+                        .add(0, 0, Short.MAX_VALUE)
+                        .add(scrFDetails, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 277, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         pnlFDetailsLayout.setVerticalGroup(
@@ -319,7 +425,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .add(22, 22, 22)
                 .add(chkFFound)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                .add(scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE))
+                .add(scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE))
         );
 
         pnlFound.add(pnlFDetails, java.awt.BorderLayout.CENTER);
@@ -330,15 +436,15 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlLabel, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .add(layout.createSequentialGroup()
-                .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(pnlFound, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 399, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(pnlNF, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 406, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .add(pnlFound, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(layout.createSequentialGroup()
-                .add(pnlLabel, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 39, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(pnlLabel, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 57, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)

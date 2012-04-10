@@ -50,10 +50,8 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
 	   createBoneTemplate(txtCaseNum.getText(), (String)ddlBodyRegion.getSelectedItem(), txtBoneName.getText(), txtCondition.getText(), chkIsFound.isSelected());
 	   boneTemplate.print(boneCase.toFileString());
 	   resetForm();
-	   
-	   
 	}
-	if (source == btnDone)
+	else if (source == btnDone)
 	{
 	    boneTemplate.close();
 	}
