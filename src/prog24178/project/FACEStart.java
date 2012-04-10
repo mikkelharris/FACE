@@ -7,6 +7,8 @@ package prog24178.project;
 import java.awt.event.*;
 import java.io.*;
 import java.util.*;
+import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -25,6 +27,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
 	initComponents();
 	btnCreate.addActionListener(this);
 	ddlRetrieve.addActionListener(this);
+	this.addWindowListener(this);
 	createArray("data/case.dat");
     }
     @Override
@@ -98,9 +101,18 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
     @Override
     public void windowIconified(WindowEvent event){}
     @Override
-    public void windowClosed(WindowEvent event){}
+    public void windowClosed(WindowEvent event)
+    {
+    }
     @Override
-    public void windowClosing(WindowEvent event){}
+    public void windowClosing(WindowEvent event)
+    {
+	int exit = JOptionPane.showConfirmDialog(null, "Do you want to close FACE?", "Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	if (exit == JOptionPane.YES_OPTION)
+	{
+	    System.exit(0);
+	}
+    }
     @Override
     public void windowOpened(WindowEvent event){}
 
@@ -117,7 +129,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener, Win
         btnCreate = new javax.swing.JButton();
         ddlRetrieve = new javax.swing.JComboBox();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setTitle("FACE");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Forensic Anthropology Case Evidence", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));

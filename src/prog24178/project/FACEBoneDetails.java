@@ -5,9 +5,13 @@
 package prog24178.project;
 
 import java.awt.event.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import javax.swing.DefaultListModel;
-import javax.swing.JList;
+import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
@@ -20,7 +24,8 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     private DefaultListModel foundList;
     private DefaultListModel notFoundList;
     private BoneInfo bone;
-    private ArrayList boneArrayListTemp;
+    private ArrayList<BoneInfo> boneArrayListTemp;
+    private PrintWriter boneFile;
 
     /**
      * Creates new form FACEBoneDetails
@@ -31,8 +36,10 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	btnFBack.addActionListener(this);
 	btnFUpdate.addActionListener(this);
 	btnNFUpdate.addActionListener(this);
+	btnExit.addActionListener(this);
 	lstFRegion.addListSelectionListener(this);
 	lstNFRegion.addListSelectionListener(this);
+	this.addWindowListener(this);
 	
 	lblCaseNum.setText(caseNum);
 	boneArrayListTemp = boneArray;
@@ -43,7 +50,21 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	lstNFRegion.setModel(notFoundList);
 	
 	createModel(foundList, boneArrayListTemp, true);
-	createModel(notFoundList, boneArrayListTemp, false);	
+	createModel(notFoundList, boneArrayListTemp, false);
+	
+	try
+	{
+	    boneFile = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
+
+	} 
+	catch (IOException ex)
+	{
+	    // display an error dialog
+	    JOptionPane.showMessageDialog(null,
+		    "Error accessing data file:\n"
+		    + ex.toString(), "Error",
+		    JOptionPane.ERROR_MESSAGE);
+	}
     }
     public FACEBoneDetails(){}
     
@@ -62,6 +83,17 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     public void clearModel(DefaultListModel listModel)
     {
 	listModel.clear();
+    }
+    
+    public void updateFile(String casesString)
+    {
+	
+	for (int i = 0; i < boneArrayListTemp.size(); i++)
+	{
+	    BoneInfo bone = (BoneInfo)boneArrayListTemp.get(i);
+	    boneFile.print(bone.toFileString());
+	}
+	boneFile.close();
     }
     
     @Override
@@ -105,8 +137,17 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     {
 	Object source = event.getSource();
 	
-	if (source == btnFBack)
+	if (source == btnExit)
 	{
+	    updateFile("data/bones.dat");
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
+	else if (source == btnFBack)
+	{
+	    updateFile("data/bones.dat");
 	    FACECaseSummary faceCaseSummary = new FACECaseSummary(lblCaseNum.getText());
 	    faceCaseSummary.pack();
 	    faceCaseSummary.setVisible(true);
@@ -149,7 +190,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 	    chkNFFound.setSelected(false);
 	}
     }
-    @Override
+   
     public void windowDeactivated(WindowEvent event){}
     @Override
     public void windowActivated(WindowEvent event){}
@@ -160,7 +201,18 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     @Override
     public void windowClosed(WindowEvent event){}
     @Override
-    public void windowClosing(WindowEvent event){}
+    public void windowClosing(WindowEvent event)
+    {
+	int exit = JOptionPane.showConfirmDialog(null, "Are you sure you wnat to exit the case?", "Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	if (exit == JOptionPane.YES_OPTION)
+	{
+	    updateFile("data/bones.dat");
+	    FACEStart faceStart = new FACEStart();
+	    faceStart.pack();
+	    faceStart.setVisible(true);
+	    this.dispose();
+	}
+    }
     @Override
     public void windowOpened(WindowEvent event){}
     /**
@@ -172,11 +224,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jPanel10 = new javax.swing.JPanel();
         pnlLabel = new javax.swing.JPanel();
         lblCaseNum = new javax.swing.JLabel();
         pnlNF = new javax.swing.JPanel();
@@ -187,6 +234,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
         jLabel2 = new javax.swing.JLabel();
         pnlNFButtons = new javax.swing.JPanel();
         btnNFUpdate = new javax.swing.JButton();
+        btnExit = new javax.swing.JButton();
         pnlNFDetails = new javax.swing.JPanel();
         scrNFDetails = new javax.swing.JScrollPane();
         txtNFDetails = new javax.swing.JTextArea();
@@ -205,35 +253,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
         txtFDetails = new javax.swing.JTextArea();
         chkFFound = new javax.swing.JCheckBox();
 
-        org.jdesktop.layout.GroupLayout jPanel2Layout = new org.jdesktop.layout.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 100, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 100, Short.MAX_VALUE)
-        );
-
-        jLabel1.setText("jLabel1");
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
-
-        org.jdesktop.layout.GroupLayout jPanel10Layout = new org.jdesktop.layout.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 100, Short.MAX_VALUE)
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-            .add(0, 100, Short.MAX_VALUE)
-        );
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
 
         pnlLabel.setLayout(new java.awt.BorderLayout());
 
@@ -281,6 +301,8 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
 
         btnNFUpdate.setText("Update");
 
+        btnExit.setText("Exit");
+
         org.jdesktop.layout.GroupLayout pnlNFButtonsLayout = new org.jdesktop.layout.GroupLayout(pnlNFButtons);
         pnlNFButtons.setLayout(pnlNFButtonsLayout);
         pnlNFButtonsLayout.setHorizontalGroup(
@@ -288,13 +310,17 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             .add(pnlNFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
                 .add(btnNFUpdate)
-                .addContainerGap(175, Short.MAX_VALUE))
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 94, Short.MAX_VALUE)
+                .add(btnExit)
+                .addContainerGap())
         );
         pnlNFButtonsLayout.setVerticalGroup(
             pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlNFButtonsLayout.createSequentialGroup()
                 .add(0, 0, Short.MAX_VALUE)
-                .add(btnNFUpdate))
+                .add(pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
+                    .add(btnNFUpdate)
+                    .add(btnExit)))
         );
 
         pnlNF.add(pnlNFButtons, java.awt.BorderLayout.PAGE_END);
@@ -455,6 +481,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     }// </editor-fold>//GEN-END:initComponents
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnExit;
     private javax.swing.JButton btnFBack;
     private javax.swing.JButton btnFUpdate;
     private javax.swing.JButton btnNFUpdate;
@@ -462,13 +489,8 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
     private javax.swing.JCheckBox chkNFFound;
     private javax.swing.JComboBox ddlFRegion;
     private javax.swing.JComboBox ddlNFRegion;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel lblCaseNum;
     private javax.swing.JList lstFRegion;
     private javax.swing.JList lstNFRegion;
