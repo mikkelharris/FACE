@@ -36,7 +36,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	this.addWindowListener(this);
 	
 	lblCaseNumber.setText(caseNum);
-	txtRemainsList.setText(String.format("%-20s %-25s\n\n", "Bone","Details"));
+	txtRemainsList.setText(String.format("%-30s %-25s\n\n", "Bone","Details"));
 	
 	createArray("data/bones.dat", caseNum);
 	for (int i = 0; i < boneArray.size(); i++)
@@ -44,7 +44,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	    BoneInfo bone = (BoneInfo)boneArray.get(i);
 	    if (bone.isFoundStatus())
 	    {
-		txtRemainsList.append(String.format("%-20s %-25s\n",bone.getBoneName(), bone.getCondition()));
+		txtRemainsList.append(String.format("%-30s %-25s\n",bone.getBoneName(), bone.getCondition()));
 	    }
 	    
 	    

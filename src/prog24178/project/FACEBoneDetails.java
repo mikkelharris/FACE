@@ -276,14 +276,14 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             pnlNFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlNFRegionLayout.createSequentialGroup()
                 .add(pnlNFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
-                    .add(pnlNFRegionLayout.createSequentialGroup()
-                        .add(6, 6, 6)
-                        .add(scrNFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .add(ddlNFRegion, 0, 206, Short.MAX_VALUE)
                     .add(pnlNFRegionLayout.createSequentialGroup()
                         .addContainerGap()
                         .add(jLabel2)
                         .add(0, 0, Short.MAX_VALUE))
-                    .add(ddlNFRegion, 0, 114, Short.MAX_VALUE))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlNFRegionLayout.createSequentialGroup()
+                        .add(0, 0, Short.MAX_VALUE)
+                        .add(scrNFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 200, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         pnlNFRegionLayout.setVerticalGroup(
@@ -294,7 +294,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(ddlNFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 24, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
-                .add(scrNFRegion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE))
+                .add(scrNFRegion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 312, Short.MAX_VALUE))
         );
 
         pnlNF.add(pnlNFRegion, java.awt.BorderLayout.LINE_START);
@@ -310,7 +310,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             .add(pnlNFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
                 .add(btnNFUpdate)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 94, Short.MAX_VALUE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 204, Short.MAX_VALUE)
                 .add(btnExit)
                 .addContainerGap())
         );
@@ -342,7 +342,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addContainerGap()
                 .add(chkNFFound)
                 .addContainerGap())
-            .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
+            .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 292, Short.MAX_VALUE)
         );
         pnlNFDetailsLayout.setVerticalGroup(
             pnlNFDetailsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -350,7 +350,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .add(20, 20, 20)
                 .add(chkNFFound)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE))
+                .add(scrNFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 315, Short.MAX_VALUE))
         );
 
         pnlNF.add(pnlNFDetails, java.awt.BorderLayout.CENTER);
@@ -369,7 +369,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             .add(pnlFButtonsLayout.createSequentialGroup()
                 .add(131, 131, 131)
                 .add(btnFUpdate)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 93, Short.MAX_VALUE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 216, Short.MAX_VALUE)
                 .add(btnFBack, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 88, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -398,12 +398,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addContainerGap()
                 .add(jLabel3)
                 .addContainerGap())
-            .add(ddlFRegion, 0, 117, Short.MAX_VALUE)
+            .add(ddlFRegion, 0, 202, Short.MAX_VALUE)
             .add(pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                 .add(pnlFRegionLayout.createSequentialGroup()
                     .addContainerGap()
-                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 105, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                    .addContainerGap(org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 196, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
         );
         pnlFRegionLayout.setVerticalGroup(
             pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -412,11 +411,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .add(jLabel3)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(ddlFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(199, Short.MAX_VALUE))
+                .addContainerGap(315, Short.MAX_VALUE))
             .add(pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                 .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFRegionLayout.createSequentialGroup()
-                    .add(0, 59, Short.MAX_VALUE)
-                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 195, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                    .add(60, 60, 60)
+                    .add(scrFRegion, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)))
         );
 
         pnlFound.add(pnlFRegion, java.awt.BorderLayout.LINE_START);
@@ -440,9 +439,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                     .add(pnlFDetailsLayout.createSequentialGroup()
                         .add(chkFFound)
                         .add(0, 0, Short.MAX_VALUE))
-                    .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlFDetailsLayout.createSequentialGroup()
-                        .add(0, 0, Short.MAX_VALUE)
-                        .add(scrFDetails, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 277, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)))
+                    .add(org.jdesktop.layout.GroupLayout.TRAILING, scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 315, Short.MAX_VALUE))
                 .addContainerGap())
         );
         pnlFDetailsLayout.setVerticalGroup(
@@ -451,7 +448,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .add(22, 22, 22)
                 .add(chkFFound)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.UNRELATED)
-                .add(scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 197, Short.MAX_VALUE))
+                .add(scrFDetails, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE))
         );
 
         pnlFound.add(pnlFDetails, java.awt.BorderLayout.CENTER);
@@ -462,9 +459,9 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
             layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlLabel, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .add(layout.createSequentialGroup()
-                .add(pnlNF, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 406, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .add(pnlFound, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
+                .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
+                .add(pnlFound, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -474,7 +471,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements ActionListene
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(layout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
                     .add(pnlNF, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .add(pnlFound, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                    .add(pnlFound, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         pack();

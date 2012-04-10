@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author mikkelharris
  */
-public class BoneTemplate extends javax.swing.JFrame implements ActionListener
+public class BoneTemplate extends javax.swing.JFrame implements ActionListener, KeyListener
 {
     private  PrintWriter boneTemplate;
     BoneInfo boneCase;
@@ -25,6 +25,8 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
 	ddlBodyRegion.addActionListener(this);
 	btnAdd.addActionListener(this);
 	btnDone.addActionListener(this);
+	txtBoneName.addKeyListener(this);
+	txtBoneName.addActionListener(this);
 	
 	try
 	{
@@ -67,6 +69,23 @@ public class BoneTemplate extends javax.swing.JFrame implements ActionListener
 	txtBoneName.setText("");
     }
     
+    @Override
+    public void keyPressed(KeyEvent event){}
+    @Override
+    public void keyTyped(KeyEvent event)
+    {
+	if (event.getSource() == txtBoneName)
+	{
+	    if (event.getKeyChar() == KeyEvent.VK_ENTER)
+	    {
+		createBoneTemplate(txtCaseNum.getText(), (String)ddlBodyRegion.getSelectedItem(), txtBoneName.getText(), txtCondition.getText(), chkIsFound.isSelected());
+		boneTemplate.print(boneCase.toFileString());
+		resetForm();
+	    }
+	}
+    }
+    @Override
+    public void keyReleased(KeyEvent event){}
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
