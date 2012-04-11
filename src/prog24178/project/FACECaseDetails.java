@@ -19,7 +19,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     private PrintWriter caseLog;
     private PrintWriter boneLog;
     private CaseInfo caseInfo;
-    private BoneInfo boneInfo;
     private ArrayList<BoneInfo> boneArrayList = new ArrayList<BoneInfo>();
     
     /**
@@ -88,7 +87,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	try
 	{
 	    Scanner fileIn = new Scanner(new File("data/boneTemplate.dat"));
-	    fileIn.useDelimiter(System.getProperty("line.separator"));
 	    
 	    while (fileIn.hasNext())
 	    {

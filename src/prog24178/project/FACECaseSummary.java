@@ -68,7 +68,6 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	try
 	{
 	    Scanner fileIn = new Scanner(new File(casefile));
-	    fileIn.useDelimiter(System.getProperty("line.separator"));
 	    
 	    while (fileIn.hasNext())
 	    {
@@ -117,7 +116,6 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	try
 	{
 	    Scanner fileIn = new Scanner(new File("data/bonesTemp.dat"));
-	    fileIn.useDelimiter(System.getProperty("line.separator"));
 	    
 	    while (fileIn.hasNext())
 	    {
