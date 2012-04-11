@@ -92,7 +92,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    
 	    while (fileIn.hasNext())
 	    {
-		String record = fileIn.next();
+		String record = fileIn.nextLine();
 		String[] fields = record.split("\\s*\\|\\s*");
 		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2], 
 			fields[3], Boolean.parseBoolean(fields[4]));

@@ -39,7 +39,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	    
 	    while (fileIn.hasNext())
 	    {
-		String record = fileIn.next();
+		String record = fileIn.nextLine();
+		System.out.println(String.format("line: %s", record));
 		String[] fields = record.split("\\s*\\|\\s*");
 		CaseInfo caseInfo = new CaseInfo(fields[0], fields[1], fields[2], 
 			Integer.parseInt(fields[3]), fields[4]);
