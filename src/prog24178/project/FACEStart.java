@@ -46,7 +46,6 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 		caseArray.add(caseInfo);
 	    }
 	    fileIn.close();
-	    fileIn = null;
 	}
 	catch (Exception ex)
 	{

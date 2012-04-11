@@ -1,1125 +1,450 @@
-1January1901testingLists | Head | Frontal | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Parietal Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Parietal Right | Please enter the condition of the bone. | true
-1January1901testingLists | Head | Temporal Left | Please enter the condition of the bone. | true
-1January1901testingLists | Head | Temporal Right | Please enter the condition of the bone. | true
-1January1901testingLists | Head | Occipital | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Sphenoid | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Ethmoid | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Mandible | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Maxilla Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Maxilla Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Palatine Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Palatine Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Zygomatic Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Zygomatic Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Nasal Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Nasal Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Lacrimal Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Lacrimal Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Vomer | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Malleus Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Malleus Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Incus Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Incus Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Stapes Left | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Stapes Right | Please enter the condition of the bone. | false
-1January1901testingLists | Head | Hyoid | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Scapula Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Scapula Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Clavicle Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Clavicle Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Sternum Body | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Manubrium | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-1January1901testingLists | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C1 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C2 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C3 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C4 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C5 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C6 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | C7 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T1 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T2 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T3 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T4 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T5 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T6 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T7 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T8 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T9 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T10 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T11 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | T12 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | L1 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | L2 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | L3 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | L4 | Please enter the condition of the bone. | false
-1January1901testingLists | Spine | L5 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-1January1901testingLists | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-1January1901testingLists | Right Arm | Humerus | Please enter the condition of the bone. | false
-1January1901testingLists | Right Arm | Radius | Please enter the condition of the bone. | false
-1January1901testingLists | Right Arm | Ulna | Please enter the condition of the bone. | false
-1January1901testingLists | Left Arm | Humerus | Please enter the condition of the bone. | false
-1January1901testingLists | Left Arm | Radius | Please enter the condition of the bone. | false
-1January1901testingLists | Left Arm | Ulna | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Lunate | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Triquetrum | Please enter the condition of the bone. | true
-1January1901testingLists | Right Hand | Pisiform | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Trapezium | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Trapezoid | Please enter the condition of the bone. | true
-1January1901testingLists | Right Hand | Capitate | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | Hamate | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | true
-1January1901testingLists | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Lunate | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Triquetrum | Please enter the condition of the bone. | true
-1January1901testingLists | Left Hand | Pisiform | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Trapezium | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Trapezoid | Please enter the condition of the bone. | true
-1January1901testingLists | Left Hand | Capitate | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | Hamate | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | true
-1January1901testingLists | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Leg | Femur | Please enter the condition of the bone. | false
-1January1901testingLists | Right Leg | Patella | Please enter the condition of the bone. | false
-1January1901testingLists | Right Leg | Tibia | Please enter the condition of the bone. | false
-1January1901testingLists | Right Leg | Fibula | Please enter the condition of the bone. | false
-1January1901testingLists | Left Leg | Femur | Please enter the condition of the bone. | false
-1January1901testingLists | Left Leg | Patella | Please enter the condition of the bone. | false
-1January1901testingLists | Left Leg | Tibia | Please enter the condition of the bone. | false
-1January1901testingLists | Left Leg | Fibula | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | Talus | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | Navicular | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | true
-1January1901testingLists | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | true
-1January1901testingLists | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | true
-1January1901testingLists | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | Talus | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | Navicular | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | true
-1January1901testingLists | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | true
-1January1901testingLists | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | true
-1January1901testingLists | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testingLists | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Frontal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Parietal Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Parietal Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Temporal Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Temporal Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Occipital | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Sphenoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Ethmoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Mandible | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Maxilla Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Maxilla Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Palatine Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Palatine Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Zygomatic Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Zygomatic Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Nasal Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Nasal Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Lacrimal Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Lacrimal Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Vomer | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Malleus Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Malleus Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Incus Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Incus Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Stapes Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Stapes Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Head | Hyoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Scapula Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Scapula Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Clavicle Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Clavicle Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Sternum Body | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Manubrium | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C1 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C2 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C3 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C4 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C5 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C6 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | C7 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T1 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T2 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T3 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T4 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T5 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T6 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T7 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T8 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T9 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T10 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T11 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | T12 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | L1 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | L2 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | L3 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | L4 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Spine | L5 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Coccyx 2 | Please enter the condition of the bone. | true
-4March1901testingcaseNum | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Arm | Humerus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Arm | Radius | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Arm | Ulna | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Arm | Humerus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Arm | Radius | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Arm | Ulna | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Lunate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Triquetrum | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Pisiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Trapezium | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Trapezoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Capitate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | Hamate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Lunate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Triquetrum | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Pisiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Trapezium | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Trapezoid | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Capitate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | Hamate | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Leg | Femur | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Leg | Patella | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Leg | Tibia | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Leg | Fibula | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Leg | Femur | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Leg | Patella | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Leg | Tibia | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Leg | Fibula | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Talus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Navicular | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Talus | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Navicular | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testingcaseNum | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Frontal | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Parietal Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Parietal Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Temporal Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Temporal Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Occipital | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Sphenoid | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Ethmoid | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Mandible | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Maxilla Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Maxilla Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Palatine Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Palatine Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Zygomatic Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Zygomatic Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Nasal Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Nasal Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Lacrimal Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Lacrimal Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Vomer | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Malleus Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Malleus Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Incus Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Incus Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Stapes Left | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Stapes Right | Please enter the condition of the bone. | false
-1January1901testRegion | Head | Hyoid | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Scapula Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Scapula Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Clavicle Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Clavicle Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Sternum Body | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Manubrium | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-1January1901testRegion | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C1 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C2 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C3 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C4 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C5 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C6 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | C7 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T1 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T2 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T3 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T4 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T5 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T6 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T7 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T8 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T9 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T10 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T11 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | T12 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | L1 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | L2 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | L3 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | L4 | Please enter the condition of the bone. | false
-1January1901testRegion | Spine | L5 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-1January1901testRegion | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-1January1901testRegion | Right Arm | Humerus | Please enter the condition of the bone. | false
-1January1901testRegion | Right Arm | Radius | Please enter the condition of the bone. | false
-1January1901testRegion | Right Arm | Ulna | Please enter the condition of the bone. | false
-1January1901testRegion | Left Arm | Humerus | Please enter the condition of the bone. | false
-1January1901testRegion | Left Arm | Radius | Please enter the condition of the bone. | false
-1January1901testRegion | Left Arm | Ulna | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Lunate | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Triquetrum | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Pisiform | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Trapezium | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Trapezoid | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Capitate | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | Hamate | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Lunate | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Triquetrum | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Pisiform | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Trapezium | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Trapezoid | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Capitate | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | Hamate | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Leg | Femur | Please enter the condition of the bone. | false
-1January1901testRegion | Right Leg | Patella | Please enter the condition of the bone. | false
-1January1901testRegion | Right Leg | Tibia | Please enter the condition of the bone. | false
-1January1901testRegion | Right Leg | Fibula | Please enter the condition of the bone. | false
-1January1901testRegion | Left Leg | Femur | Please enter the condition of the bone. | false
-1January1901testRegion | Left Leg | Patella | Please enter the condition of the bone. | false
-1January1901testRegion | Left Leg | Tibia | Please enter the condition of the bone. | false
-1January1901testRegion | Left Leg | Fibula | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Talus | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Navicular | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Talus | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Navicular | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-1January1901testRegion | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Frontal | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Parietal Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Parietal Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Temporal Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Temporal Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Occipital | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Sphenoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Ethmoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Mandible | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Maxilla Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Maxilla Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Palatine Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Palatine Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Zygomatic Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Zygomatic Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Nasal Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Nasal Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Lacrimal Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Lacrimal Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Vomer | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Malleus Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Malleus Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Incus Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Incus Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Stapes Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Stapes Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Head | Hyoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Scapula Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Scapula Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Clavicle Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Clavicle Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Sternum Body | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Manubrium | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C1 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C2 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C3 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C4 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C5 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C6 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | C7 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T1 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T2 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T3 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T4 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T5 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T6 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T7 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T8 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T9 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T10 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T11 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | T12 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | L1 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | L2 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | L3 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | L4 | Please enter the condition of the bone. | false
-4March1901testregion2 | Spine | L5 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-4March1901testregion2 | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Arm | Humerus | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Arm | Radius | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Arm | Ulna | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Arm | Humerus | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Arm | Radius | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Arm | Ulna | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Lunate | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Triquetrum | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Pisiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Trapezium | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Trapezoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Capitate | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | Hamate | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Lunate | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Triquetrum | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Pisiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Trapezium | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Trapezoid | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Capitate | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | Hamate | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Leg | Femur | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Leg | Patella | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Leg | Tibia | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Leg | Fibula | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Leg | Femur | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Leg | Patella | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Leg | Tibia | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Leg | Fibula | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Talus | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Navicular | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Talus | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Navicular | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-4March1901testregion2 | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Frontal | Please enter the condition of the bone. | true
-2April1902testregion3 | Head | Parietal Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Parietal Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Temporal Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Temporal Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Occipital | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Sphenoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Ethmoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Mandible | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Maxilla Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Maxilla Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Palatine Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Palatine Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Zygomatic Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Zygomatic Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Nasal Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Nasal Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Lacrimal Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Lacrimal Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Vomer | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Malleus Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Malleus Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Incus Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Incus Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Stapes Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Stapes Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Head | Hyoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Scapula Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Scapula Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Clavicle Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Clavicle Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Sternum Body | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Manubrium | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C1 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C2 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C3 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C4 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C5 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C6 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | C7 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T1 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T2 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T3 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T4 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T5 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T6 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T7 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T8 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T9 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T10 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T11 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | T12 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | L1 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | L2 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | L3 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | L4 | Please enter the condition of the bone. | false
-2April1902testregion3 | Spine | L5 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-2April1902testregion3 | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Arm | Humerus | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Arm | Radius | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Arm | Ulna | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Arm | Humerus | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Arm | Radius | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Arm | Ulna | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Lunate | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Triquetrum | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Pisiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Trapezium | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Trapezoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Capitate | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | Hamate | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Lunate | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Triquetrum | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Pisiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Trapezium | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Trapezoid | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Capitate | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | Hamate | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Leg | Femur | Please enter the condition of the bone. | true
-2April1902testregion3 | Right Leg | Patella | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Leg | Tibia | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Leg | Fibula | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Leg | Femur | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Leg | Patella | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Leg | Tibia | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Leg | Fibula | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Talus | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Navicular | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Talus | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Navicular | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-2April1902testregion3 | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Head | Frontal | Please enter the condition of the bone. | false
+2February1901testingline | Head | Parietal Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Parietal Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Temporal Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Temporal Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Occipital | Please enter the condition of the bone. | false
+2February1901testingline | Head | Sphenoid | Please enter the condition of the bone. | false
+2February1901testingline | Head | Ethmoid | Please enter the condition of the bone. | false
+2February1901testingline | Head | Mandible | Please enter the condition of the bone. | false
+2February1901testingline | Head | Maxilla Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Maxilla Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Palatine Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Palatine Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Zygomatic Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Zygomatic Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Nasal Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Nasal Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Lacrimal Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Lacrimal Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Vomer | Please enter the condition of the bone. | false
+2February1901testingline | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Malleus Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Malleus Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Incus Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Incus Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Stapes Left | Please enter the condition of the bone. | false
+2February1901testingline | Head | Stapes Right | Please enter the condition of the bone. | false
+2February1901testingline | Head | Hyoid | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Scapula Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Scapula Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Clavicle Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Clavicle Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Sternum Body | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Manubrium | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Xiphoid Process | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 12 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 12 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 11 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 11 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 10 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 10 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 9 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 9 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 8 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 8 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 7 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 7 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 6 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 6 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 5 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 5 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 4 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 4 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 3 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 3 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 2 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 2 Left | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 1 Right | Please enter the condition of the bone. | false
+2February1901testingline | Torso | Rib 1 Left | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C1 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C2 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C3 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C4 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C5 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C6 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | C7 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T1 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T2 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T3 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T4 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T5 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T6 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T7 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T8 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T9 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T10 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T11 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | T12 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | L1 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | L2 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | L3 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | L4 | Please enter the condition of the bone. | false
+2February1901testingline | Spine | L5 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Ilium Right | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Ilium Left | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Ischium Left | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Ischium Right | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Pubis Left | Please enter the condition of the bone. | false
+2February1901testingline | Pelvis | Pubis Right | Please enter the condition of the bone. | false
+2February1901testingline | Right Arm | Humerus | Please enter the condition of the bone. | false
+2February1901testingline | Right Arm | Radius | Please enter the condition of the bone. | false
+2February1901testingline | Right Arm | Ulna | Please enter the condition of the bone. | false
+2February1901testingline | Left Arm | Humerus | Please enter the condition of the bone. | false
+2February1901testingline | Left Arm | Radius | Please enter the condition of the bone. | false
+2February1901testingline | Left Arm | Ulna | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Scaphoid | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Lunate | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Triquetrum | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Pisiform | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Trapezium | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Trapezoid | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Capitate | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | Hamate | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Scaphoid | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Lunate | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Triquetrum | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Pisiform | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Trapezium | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Trapezoid | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Capitate | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | Hamate | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Leg | Femur | Please enter the condition of the bone. | false
+2February1901testingline | Right Leg | Patella | Please enter the condition of the bone. | false
+2February1901testingline | Right Leg | Tibia | Please enter the condition of the bone. | false
+2February1901testingline | Right Leg | Fibula | Please enter the condition of the bone. | false
+2February1901testingline | Left Leg | Femur | Please enter the condition of the bone. | false
+2February1901testingline | Left Leg | Patella | Please enter the condition of the bone. | false
+2February1901testingline | Left Leg | Tibia | Please enter the condition of the bone. | false
+2February1901testingline | Left Leg | Fibula | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Calcaneus | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Talus | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Navicular | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Calcaneus | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Talus | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Navicular | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
+2February1901testingline | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Frontal | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Parietal Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Parietal Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Temporal Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Temporal Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Occipital | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Sphenoid | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Ethmoid | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Mandible | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Maxilla Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Maxilla Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Palatine Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Palatine Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Zygomatic Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Zygomatic Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Nasal Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Nasal Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Lacrimal Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Lacrimal Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Vomer | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Malleus Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Malleus Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Incus Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Incus Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Stapes Left | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Stapes Right | Please enter the condition of the bone. | false
+1February1902testline2 | Head | Hyoid | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Scapula Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Scapula Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Clavicle Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Clavicle Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Sternum Body | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Manubrium | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Xiphoid Process | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 12 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 12 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 11 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 11 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 10 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 10 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 9 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 9 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 8 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 8 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 7 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 7 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 6 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 6 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 5 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 5 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 4 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 4 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 3 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 3 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 2 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 2 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 1 Right | Please enter the condition of the bone. | false
+1February1902testline2 | Torso | Rib 1 Left | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C1 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C2 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C3 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C4 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C5 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C6 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | C7 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T1 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T2 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T3 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T4 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T5 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T6 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T7 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T8 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T9 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T10 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T11 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | T12 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | L1 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | L2 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | L3 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | L4 | Please enter the condition of the bone. | false
+1February1902testline2 | Spine | L5 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Ilium Right | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Ilium Left | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Ischium Left | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Ischium Right | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Pubis Left | Please enter the condition of the bone. | false
+1February1902testline2 | Pelvis | Pubis Right | Please enter the condition of the bone. | false
+1February1902testline2 | Right Arm | Humerus | Please enter the condition of the bone. | false
+1February1902testline2 | Right Arm | Radius | Please enter the condition of the bone. | false
+1February1902testline2 | Right Arm | Ulna | Please enter the condition of the bone. | false
+1February1902testline2 | Left Arm | Humerus | Please enter the condition of the bone. | false
+1February1902testline2 | Left Arm | Radius | Please enter the condition of the bone. | false
+1February1902testline2 | Left Arm | Ulna | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Scaphoid | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Lunate | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Triquetrum | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Pisiform | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Trapezium | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Trapezoid | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Capitate | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | Hamate | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Scaphoid | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Lunate | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Triquetrum | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Pisiform | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Trapezium | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Trapezoid | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Capitate | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | Hamate | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Leg | Femur | Please enter the condition of the bone. | false
+1February1902testline2 | Right Leg | Patella | Please enter the condition of the bone. | false
+1February1902testline2 | Right Leg | Tibia | Please enter the condition of the bone. | false
+1February1902testline2 | Right Leg | Fibula | Please enter the condition of the bone. | false
+1February1902testline2 | Left Leg | Femur | Please enter the condition of the bone. | false
+1February1902testline2 | Left Leg | Patella | Please enter the condition of the bone. | false
+1February1902testline2 | Left Leg | Tibia | Please enter the condition of the bone. | false
+1February1902testline2 | Left Leg | Fibula | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Calcaneus | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Talus | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Navicular | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Calcaneus | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Talus | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Navicular | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
+1February1902testline2 | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false

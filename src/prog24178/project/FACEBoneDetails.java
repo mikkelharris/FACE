@@ -83,7 +83,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    }
 	}
     }
-    private void updateFile(String casesString)
+    private void updateFile()
     {
 	
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
@@ -136,7 +136,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	
 	if (source == btnExit)
 	{
-	    updateFile("data/bones.dat");
+	    updateFile();
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
 	    faceStart.setVisible(true);
@@ -144,7 +144,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
 	else if (source == btnFBack)
 	{
-	    updateFile("data/bones.dat");
+	    updateFile();
 	    FACECaseSummary faceCaseSummary = new FACECaseSummary(lblCaseNum.getText());
 	    faceCaseSummary.pack();
 	    faceCaseSummary.setVisible(true);
@@ -223,7 +223,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		"Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
-	    updateFile("data/bones.dat");
+	    updateFile();
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
 	    faceStart.setVisible(true);
