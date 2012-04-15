@@ -1,14 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package prog24178.project;
 
 import java.awt.event.*;
 import java.io.*;
 import java.util.*;
 import javax.swing.JOptionPane;
-
 
 /**
  *
@@ -17,30 +12,42 @@ import javax.swing.JOptionPane;
 public class FACEStart extends javax.swing.JFrame implements ActionListener, 
 	WindowListener
 {
-    private ArrayList<CaseInfo> caseArray = new ArrayList<CaseInfo>(50);
+    // Create new arrayList to hold caseNumbers
+    private ArrayList<CaseInfo> caseArray = new ArrayList<CaseInfo>();
     
     /**
-     * Creates new form FACEStart
+     * Creates new form FACEStart GUI 
      */
     public FACEStart()
     {
 	initComponents();
+	// Add Action Listeners
 	btnCreate.addActionListener(this);
 	ddlRetrieve.addActionListener(this);
+	// Add Window Listener
 	this.addWindowListener(this);
+	this.setLocationRelativeTo(null);
+	// Populate ddlRetrieve
 	createListArray("data/case.dat");
     }
+    /**
+     * 
+     * @param casefile 
+     */
     private void createListArray(String casefile)
     {
 	try
 	{
+	    // Create new scanner to read the case.dat file
 	    Scanner fileIn = new Scanner(new File(casefile));
-	    
+	    // Loop through case.dat as long as there is a new line
 	    while (fileIn.hasNext())
 	    {
 		String record = fileIn.nextLine();
+		// Create an array of fields using | as a delimiter
 		String[] fields = record.split("\\s*\\|\\s*");
-		CaseInfo caseInfo = new CaseInfo(fields[0], fields[1], fields[2], 
+		// Create caseInfo opjects and add them to caseArray
+		CaseInfo caseInfo = new CaseInfo(fields[0], Integer.parseInt(fields[1]), fields[2], 
 			Integer.parseInt(fields[3]), fields[4]);
 		caseArray.add(caseInfo);
 	    }
@@ -48,16 +55,19 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	}
 	catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this,
-		    "Error:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error:\n" + ex.toString(), 
+		    "Error", JOptionPane.ERROR_MESSAGE);
 	}
+	// Loop through the caseArray adding the caseNumbers to ddlRetrieve
 	for (int i = 0; i <= caseArray.size() - 1; i++)
 	{
 	    ddlRetrieve.addItem(caseArray.get(i).getCaseNum());
 	}
     }
+    /**
+     * 
+     * @param event 
+     */
     @Override
     public void actionPerformed(ActionEvent event)
     {
@@ -65,6 +75,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	
 	if (source == btnCreate)
 	{
+	    // Create an instance of FACECaseDetails and dispose of current window
 	    FACECaseDetails faceCaseDetails = new FACECaseDetails();
 	    faceCaseDetails.pack();
 	    faceCaseDetails.setVisible(true);
@@ -72,8 +83,10 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	}
 	else if (source == ddlRetrieve)
 	{
+	    // Check to make sure a case is selected
 	    if (ddlRetrieve.getSelectedIndex() > 0)
 	    {
+		// Create an instance of FACECaseSummary and dispose of current window
 		FACECaseSummary faceSummary = new FACECaseSummary((String)ddlRetrieve.getSelectedItem());
 		faceSummary.pack();
 		faceSummary.setVisible(true);
@@ -81,9 +94,14 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	    } 
 	}
     }
+    /**
+     * 
+     * @param event 
+     */
     @Override
     public void windowClosing(WindowEvent event)
     {
+	// Confirm that user wants to exit program when they click the X
 	int exit = JOptionPane.showConfirmDialog(this, "Do you want to close FACE?", 
 		"Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)

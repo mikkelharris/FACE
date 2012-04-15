@@ -33,6 +33,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	btnEdit.addActionListener(this);
 	btnExitCase.addActionListener(this);
 	this.addWindowListener(this);
+	this.setLocationRelativeTo(null);
 	
 	lblCaseNumber.setText(caseNum);
 	txtRemainsList.setText(String.format("%-30s %-25s\n\n", "Bone","Details"));
@@ -68,10 +69,11 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	try
 	{
 	    Scanner fileIn = new Scanner(new File(casefile));
-	    
+	    fileIn.useDelimiter("endOfLine\n");
 	    while (fileIn.hasNext())
 	    {
-		String record = fileIn.nextLine();
+		
+		String record = fileIn.next();
 		String[] fields = record.split("\\s*\\|\\s*");
 		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2], 
 			fields[3], Boolean.parseBoolean(fields[4]));
@@ -92,7 +94,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
-		    "Error:\n"
+		    "Error extracting case file bones:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
@@ -116,10 +118,11 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	try
 	{
 	    Scanner fileIn = new Scanner(new File("data/bonesTemp.dat"));
+	    fileIn.useDelimiter("endOfLine\n");
 	    
 	    while (fileIn.hasNext())
 	    {
-		String record = fileIn.nextLine();
+		String record = fileIn.next();
 		String[] fields = record.split("\\s*\\|\\s*");
 		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2], 
 			fields[3], Boolean.parseBoolean(fields[4]));
@@ -129,7 +132,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
-		    "Error:\n"
+		    "Error creating temp file:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
@@ -149,7 +152,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
-		    "Error:\n"
+		    "Error overwriting bones.dat:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
@@ -183,7 +186,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     @Override
     public void windowClosing(WindowEvent event)
     {
-	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?", "Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?", 
+		"Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
 	    updateFile("data/bones.dat");

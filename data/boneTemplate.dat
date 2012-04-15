@@ -1,225 +1,225 @@
-Template | Head | Frontal | Please enter the condition of the bone. | false
-Template | Head | Parietal Left | Please enter the condition of the bone. | false
-Template | Head | Parietal Right | Please enter the condition of the bone. | false
-Template | Head | Temporal Left | Please enter the condition of the bone. | false
-Template | Head | Temporal Right | Please enter the condition of the bone. | false
-Template | Head | Occipital | Please enter the condition of the bone. | false
-Template | Head | Sphenoid | Please enter the condition of the bone. | false
-Template | Head | Ethmoid | Please enter the condition of the bone. | false
-Template | Head | Mandible | Please enter the condition of the bone. | false
-Template | Head | Maxilla Left | Please enter the condition of the bone. | false
-Template | Head | Maxilla Right | Please enter the condition of the bone. | false
-Template | Head | Palatine Left | Please enter the condition of the bone. | false
-Template | Head | Palatine Right | Please enter the condition of the bone. | false
-Template | Head | Zygomatic Left | Please enter the condition of the bone. | false
-Template | Head | Zygomatic Right | Please enter the condition of the bone. | false
-Template | Head | Nasal Left | Please enter the condition of the bone. | false
-Template | Head | Nasal Right | Please enter the condition of the bone. | false
-Template | Head | Lacrimal Left | Please enter the condition of the bone. | false
-Template | Head | Lacrimal Right | Please enter the condition of the bone. | false
-Template | Head | Vomer | Please enter the condition of the bone. | false
-Template | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false
-Template | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false
-Template | Head | Malleus Left | Please enter the condition of the bone. | false
-Template | Head | Malleus Right | Please enter the condition of the bone. | false
-Template | Head | Incus Left | Please enter the condition of the bone. | false
-Template | Head | Incus Right | Please enter the condition of the bone. | false
-Template | Head | Stapes Left | Please enter the condition of the bone. | false
-Template | Head | Stapes Right | Please enter the condition of the bone. | false
-Template | Head | Hyoid | Please enter the condition of the bone. | false
-Template | Torso | Scapula Left | Please enter the condition of the bone. | false
-Template | Torso | Scapula Right | Please enter the condition of the bone. | false
-Template | Torso | Clavicle Left | Please enter the condition of the bone. | false
-Template | Torso | Clavicle Right | Please enter the condition of the bone. | false
-Template | Torso | Sternum Body | Please enter the condition of the bone. | false
-Template | Torso | Manubrium | Please enter the condition of the bone. | false
-Template | Torso | Xiphoid Process | Please enter the condition of the bone. | false
-Template | Torso | Rib 12 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 12 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 11 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 11 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 10 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 10 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 9 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 9 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 8 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 8 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 7 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 7 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 6 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 6 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 5 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 5 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 4 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 4 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 3 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 3 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 2 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 2 Left | Please enter the condition of the bone. | false
-Template | Torso | Rib 1 Right | Please enter the condition of the bone. | false
-Template | Torso | Rib 1 Left | Please enter the condition of the bone. | false
-Template | Spine | C1 | Please enter the condition of the bone. | false
-Template | Spine | C2 | Please enter the condition of the bone. | false
-Template | Spine | C3 | Please enter the condition of the bone. | false
-Template | Spine | C4 | Please enter the condition of the bone. | false
-Template | Spine | C5 | Please enter the condition of the bone. | false
-Template | Spine | C6 | Please enter the condition of the bone. | false
-Template | Spine | C7 | Please enter the condition of the bone. | false
-Template | Spine | T1 | Please enter the condition of the bone. | false
-Template | Spine | T2 | Please enter the condition of the bone. | false
-Template | Spine | T3 | Please enter the condition of the bone. | false
-Template | Spine | T4 | Please enter the condition of the bone. | false
-Template | Spine | T5 | Please enter the condition of the bone. | false
-Template | Spine | T6 | Please enter the condition of the bone. | false
-Template | Spine | T7 | Please enter the condition of the bone. | false
-Template | Spine | T8 | Please enter the condition of the bone. | false
-Template | Spine | T9 | Please enter the condition of the bone. | false
-Template | Spine | T10 | Please enter the condition of the bone. | false
-Template | Spine | T11 | Please enter the condition of the bone. | false
-Template | Spine | T12 | Please enter the condition of the bone. | false
-Template | Spine | L1 | Please enter the condition of the bone. | false
-Template | Spine | L2 | Please enter the condition of the bone. | false
-Template | Spine | L3 | Please enter the condition of the bone. | false
-Template | Spine | L4 | Please enter the condition of the bone. | false
-Template | Spine | L5 | Please enter the condition of the bone. | false
-Template | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false
-Template | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false
-Template | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false
-Template | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false
-Template | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false
-Template | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false
-Template | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false
-Template | Pelvis | Coccyx 3  | Please enter the condition of the bone. | false
-Template | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false
-Template | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false
-Template | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false
-Template | Pelvis | Ilium Right | Please enter the condition of the bone. | false
-Template | Pelvis | Ilium Left | Please enter the condition of the bone. | false
-Template | Pelvis | Ischium Left | Please enter the condition of the bone. | false
-Template | Pelvis | Ischium Right | Please enter the condition of the bone. | false
-Template | Pelvis | Pubis Left | Please enter the condition of the bone. | false
-Template | Pelvis | Pubis Right | Please enter the condition of the bone. | false
-Template | Right Arm | Humerus | Please enter the condition of the bone. | false
-Template | Right Arm | Radius | Please enter the condition of the bone. | false
-Template | Right Arm | Ulna | Please enter the condition of the bone. | false
-Template | Left Arm | Humerus | Please enter the condition of the bone. | false
-Template | Left Arm | Radius | Please enter the condition of the bone. | false
-Template | Left Arm | Ulna | Please enter the condition of the bone. | false
-Template | Right Hand | Scaphoid | Please enter the condition of the bone. | false
-Template | Right Hand | Lunate | Please enter the condition of the bone. | false
-Template | Right Hand | Triquetrum | Please enter the condition of the bone. | false
-Template | Right Hand | Pisiform | Please enter the condition of the bone. | false
-Template | Right Hand | Trapezium | Please enter the condition of the bone. | false
-Template | Right Hand | Trapezoid | Please enter the condition of the bone. | false
-Template | Right Hand | Capitate | Please enter the condition of the bone. | false
-Template | Right Hand | Hamate | Please enter the condition of the bone. | false
-Template | Right Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-Template | Right Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-Template | Right Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-Template | Right Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-Template | Right Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-Template | Right Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | Scaphoid | Please enter the condition of the bone. | false
-Template | Left Hand | Lunate | Please enter the condition of the bone. | false
-Template | Left Hand | Triquetrum | Please enter the condition of the bone. | false
-Template | Left Hand | Pisiform | Please enter the condition of the bone. | false
-Template | Left Hand | Trapezium | Please enter the condition of the bone. | false
-Template | Left Hand | Trapezoid | Please enter the condition of the bone. | false
-Template | Left Hand | Capitate | Please enter the condition of the bone. | false
-Template | Left Hand | Hamate | Please enter the condition of the bone. | false
-Template | Left Hand | 1st Metacarpal | Please enter the condition of the bone. | false
-Template | Left Hand | 2nd Metacarpal | Please enter the condition of the bone. | false
-Template | Left Hand | 3rd Metacarpal | Please enter the condition of the bone. | false
-Template | Left Hand | 4th Metacarpal | Please enter the condition of the bone. | false
-Template | Left Hand | 5th Metacarpal | Please enter the condition of the bone. | false
-Template | Left Hand | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 1st Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 4th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Hand | 5th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Leg | Femur | Please enter the condition of the bone. | false
-Template | Right Leg | Patella | Please enter the condition of the bone. | false
-Template | Right Leg | Tibia | Please enter the condition of the bone. | false
-Template | Right Leg | Fibula | Please enter the condition of the bone. | false
-Template | Left Leg | Femur | Please enter the condition of the bone. | false
-Template | Left Leg | Patella | Please enter the condition of the bone. | false
-Template | Left Leg | Tibia | Please enter the condition of the bone. | false
-Template | Left Leg | Fibula | Please enter the condition of the bone. | false
-Template | Right Foot | Calcaneus | Please enter the condition of the bone. | false
-Template | Right Foot | Talus | Please enter the condition of the bone. | false
-Template | Right Foot | Navicular | Please enter the condition of the bone. | false
-Template | Right Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-Template | Right Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-Template | Right Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-Template | Right Foot | Cuboid Bone | Please enter the condition of the bone. | false
-Template | Right Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-Template | Right Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-Template | Right Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-Template | Right Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-Template | Right Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-Template | Right Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Right Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | Calcaneus | Please enter the condition of the bone. | false
-Template | Left Foot | Talus | Please enter the condition of the bone. | false
-Template | Left Foot | Navicular | Please enter the condition of the bone. | false
-Template | Left Foot | Medial Cuneiform | Please enter the condition of the bone. | false
-Template | Left Foot | Intermediate Cuneiform | Please enter the condition of the bone. | false
-Template | Left Foot | Lateral Cuneiform | Please enter the condition of the bone. | false
-Template | Left Foot | Cuboid Bone | Please enter the condition of the bone. | false
-Template | Left Foot | 1st Metatarsal | Please enter the condition of the bone. | false
-Template | Left Foot | 2nd Metatarsal | Please enter the condition of the bone. | false
-Template | Left Foot | 3rd Metatarsal | Please enter the condition of the bone. | false
-Template | Left Foot | 4th Metatarsal | Please enter the condition of the bone. | false
-Template | Left Foot | 5th Metatarsal | Please enter the condition of the bone. | false
-Template | Left Foot | 1st Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 2nd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 3rd Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 4th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 5th Proximal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 1st Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 2nd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 3rd Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 4th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 5th Intermediate Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 1st Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 2nd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 3rd Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 4th Distal Phalanx | Please enter the condition of the bone. | false
-Template | Left Foot | 5th Distal Phalanx | Please enter the condition of the bone. | false
+Template | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Parietal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Parietal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Temporal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Temporal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Maxilla Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Maxilla Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Palatine Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Palatine Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Zygomatic Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Zygomatic Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Nasal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Nasal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Lacrimal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Lacrimal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Inferior Nasal Conchae Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Inferior Nasal Conchae Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Malleus Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Malleus Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Incus Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Incus Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Stapes Left | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Stapes Right | Please enter the condition of the bone. | false | endOfLine
+Template | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Scapula Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Scapula Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Clavicle Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Clavicle Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 12 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 12 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 11 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 11 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 10 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 10 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 9 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 9 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 8 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 8 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 7 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 7 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 6 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 6 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 5 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 5 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 4 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 4 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 3 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 3 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 2 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 2 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 1 Right | Please enter the condition of the bone. | false | endOfLine
+Template | Torso | Rib 1 Left | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+Template | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Coccyx 3  | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Os Coxae Left | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Os Coxae Right | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Ilium Right | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Ilium Left | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Ischium Left | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Ischium Right | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Pubis Left | Please enter the condition of the bone. | false | endOfLine
+Template | Pelvis | Pubis Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Arm | Humerus Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Arm | Radius Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Arm | Ulna Right | Please enter the condition of the bone. | false | endOfLine
+Template | Left Arm | Humerus Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Arm | Radius Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Arm | Ulna Left | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Scaphoid Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Lunate Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Triquetrum Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Pisiform Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Trapezium Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Trapezoid Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Capitate Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | Hamate Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 1st Metacarpal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 2nd Metacarpal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 3rd Metacarpal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 4th Metacarpal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 5th Metacarpal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 1st Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 2nd Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 3rd Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 4th Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 5th Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 1st Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 2nd Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 3rd Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 4th Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 5th Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 1st Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 2nd Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 3rd Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 4th Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Hand | 5th Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Scaphoid Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Lunate Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Triquetrum Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Pisiform Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Trapezium Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Trapezoid Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Capitate Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | Hamate Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 1st Metacarpal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 2nd Metacarpal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 3rd Metacarpal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 4th Metacarpal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 5th Metacarpal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 1st Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 2nd Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 3rd Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 4th Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 5th Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 1st Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 2nd Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 3rd Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 4th Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 5th Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 1st Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 2nd Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 3rd Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 4th Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Hand | 5th Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Right Leg | Femur Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Leg | Patella Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Leg | Tibia Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Leg | Fibula Right | Please enter the condition of the bone. | false | endOfLine
+Template | Left Leg | Femur Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Leg | Patella Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Leg | Tibia Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Leg | Fibula Left | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Calcaneus Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Talus Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Navicular Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Medial Cuneiform Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Intermediate Cuneiform Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Lateral Cuneiform Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | Cuboid Bone Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 1st Metatarsal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 2nd Metatarsal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 3rd Metatarsal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 4th Metatarsal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 5th Metatarsal Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 1st Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 2nd Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 3rd Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 4th Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 5th Proximal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 1st Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 2nd Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 3rd Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 4th Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 5th Intermediate Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 1st Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 2nd Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 3rd Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 4th Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Right Foot | 5th Distal Phalanx Right | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Calcaneus Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Talus Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Navicular Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Medial Cuneiform Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Intermediate Cuneiform Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Lateral Cuneiform Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | Cuboid Bone Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 1st Metatarsal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 2nd Metatarsal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 3rd Metatarsal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 4th Metatarsal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 5th Metatarsal Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 1st Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 2nd Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 3rd Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 4th Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 5th Proximal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 1st Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 2nd Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 3rd Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 4th Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 5th Intermediate Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 1st Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 2nd Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 3rd Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 4th Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine
+Template | Left Foot | 5th Distal Phalanx Left | Please enter the condition of the bone. | false | endOfLine

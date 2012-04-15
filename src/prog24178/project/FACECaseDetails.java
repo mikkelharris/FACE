@@ -27,14 +27,18 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
     public FACECaseDetails()
     {
 	initComponents();
+	// Add Action Listeners
 	btnCreateCase.addActionListener(this);
 	btnBack.addActionListener(this);
 	ddlDay.addActionListener(this);
 	ddlMonth.addActionListener(this);
 	ddlYear.addActionListener(this);
-	ddlYear.addItem((Object)"Year");
+	// Add Window Listeners
 	this.addWindowListener(this);
-	
+	this.setLocationRelativeTo(null);
+	// Add Year to index 0
+	ddlYear.addItem((Object)"Year");
+	// Add years to ddlYear
 	for (int i = 1900; i <= 2100; i++)
 	{
 	    ddlYear.addItem((Object)i);
@@ -105,7 +109,7 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
-		    "Error:\n"
+		    "Error reading template:\n"
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
@@ -142,8 +146,8 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 			else 
 			{
 			    String caseNum = createCaseNumber();
-			    caseInfo = new CaseInfo(createCaseNumber(), (String)ddlDay.getSelectedItem(), 
-			    (String)ddlMonth.getSelectedItem(), 
+			    caseInfo = new CaseInfo(createCaseNumber(), Integer.parseInt(ddlDay.getSelectedItem().toString()), 
+			    ddlMonth.getSelectedItem().toString(), 
 			    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
 			    
 			    caseLog.print(caseInfo.toFileString());

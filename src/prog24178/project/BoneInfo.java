@@ -80,6 +80,6 @@ public class BoneInfo
     
     public String toFileString()
     {
-	return getCaseNumber() + " | " + getBodyRegion() + " | " + getBoneName() + " | " + getCondition() + " | " + isFoundStatus() + "\n";
+	return getCaseNumber() + " | " + getBodyRegion() + " | " + getBoneName() + " | " + getCondition() + " | " + isFoundStatus() + " | endOfLine\n";
     }
 }

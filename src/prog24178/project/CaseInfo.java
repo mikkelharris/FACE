@@ -13,7 +13,7 @@ package prog24178.project;
 public class CaseInfo
 {
     private String caseNumber;
-    private String caseDateDay;
+    private int caseDateDay;
     private String caseDateMonth;
     private int caseDateYear;
     private String caseLocation;
@@ -23,7 +23,7 @@ public class CaseInfo
     {
     }
     
-    public CaseInfo(String caseNumber, String caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
+    public CaseInfo(String caseNumber, int caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
     {
 	setCaseNum(caseNumber);
 	setCaseDateDay(caseDateDay);
@@ -33,12 +33,12 @@ public class CaseInfo
 	setCaseLocation(caseLocation);
     }
 
-    public String getCaseDateDay()
+    public int getCaseDateDay()
     {
 	return caseDateDay;
     }
 
-    public void setCaseDateDay(String caseDateDay)
+    public void setCaseDateDay(int caseDateDay)
     {
 	this.caseDateDay = caseDateDay;
     }

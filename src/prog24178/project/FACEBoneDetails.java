@@ -7,10 +7,10 @@ package prog24178.project;
 import java.awt.event.*;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import javax.swing.DefaultListModel;
+import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -20,7 +20,7 @@ import javax.swing.event.ListSelectionListener;
  * @author mikkelharris
  */
 public class FACEBoneDetails extends javax.swing.JFrame implements 
-	ActionListener, WindowListener, ListSelectionListener
+	ActionListener, WindowListener, ListSelectionListener, FocusListener
 {
     private DefaultListModel foundList;
     private DefaultListModel notFoundList;
@@ -42,8 +42,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	lstNFRegion.addListSelectionListener(this);
 	ddlFRegion.addActionListener(this);
 	ddlNFRegion.addActionListener(this);
+	txtFDetails.addFocusListener(this);
+	txtNFDetails.addFocusListener(this);
 	
 	this.addWindowListener(this);
+	this.setLocationRelativeTo(null);
 	
 	lblCaseNum.setText(caseNum);
 	boneArrayListTemp = boneArray;
@@ -53,8 +56,8 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	lstFRegion.setModel(foundList);
 	lstNFRegion.setModel(notFoundList);
 	
-	createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
-	createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+	createModel(foundList, boneArrayListTemp, true, ddlFRegion);
+	createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 	
 	try
 	{
@@ -69,18 +72,28 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     }
     public FACEBoneDetails(){}
     private void createModel(DefaultListModel listModel, ArrayList arrayList, 
-	    boolean status, String ddlString)
+	    boolean status, JComboBox comboBox)
     {
 	for (int i = 0; i < arrayList.size(); i++)
 	{
 	    bone = (BoneInfo)arrayList.get(i);
-	    if (status == bone.isFoundStatus())
+	    if (comboBox.getSelectedIndex() == 0)
 	    {
-		if (ddlString.equals(bone.getBodyRegion()))
+		if (status == bone.isFoundStatus())
 		{
 		    listModel.addElement(bone.getBoneName());
 		}
 	    }
+	    else 
+	    {
+		if (status == bone.isFoundStatus())
+		{
+		    if (((String)comboBox.getSelectedItem()).equals(bone.getBodyRegion()))
+		    {
+		      listModel.addElement(bone.getBoneName());
+		    }
+		}
+	    }  
 	}
     }
     private void updateFile()
@@ -97,7 +110,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     public void valueChanged(ListSelectionEvent event)
     {
 	Object source = event.getSource();
-	
+
 	if (source == lstFRegion)
 	{
 	    if (lstFRegion.getSelectedIndex() >= 0)
@@ -152,13 +165,10 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
 	else if (source == btnFUpdate)
 	{
-	    if (lstFRegion.getSelectedIndex() >= 0)
-	    {
 		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
 		    bone = (BoneInfo)boneArrayListTemp.get(i);
-		    if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex()))
-			    && bone.getBodyRegion().equals((String)ddlFRegion.getSelectedItem()))
+		    if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
 		    {
 			bone.setCondition(txtFDetails.getText());
 			bone.setFoundStatus(chkFFound.isSelected());
@@ -166,26 +176,18 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		}
 		foundList.clear();
 		notFoundList.clear();
-		createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
-		createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+		createModel(foundList, boneArrayListTemp, true, ddlFRegion);
+		createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 		txtFDetails.setText("");
 		chkFFound.setSelected(false);
-	    }
-	    else 
-	    {
-		JOptionPane.showMessageDialog(this, "Please select a bone before updating", 
-			"Bone not selected", JOptionPane.INFORMATION_MESSAGE);
-	    }
+	    
 	}
 	else if (source == btnNFUpdate)
 	{
-	    if (lstNFRegion.getSelectedIndex() >= 0)
-	    {
 		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
 		    bone = (BoneInfo)boneArrayListTemp.get(i);
-		    if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex()))
-			    && bone.getBodyRegion().equals((String)ddlNFRegion.getSelectedItem()))
+		    if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
 		    {
 			bone.setCondition(txtNFDetails.getText());
 			bone.setFoundStatus(chkNFFound.isSelected());
@@ -193,27 +195,21 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		}
 		foundList.clear();
 		notFoundList.clear();
-		createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
-		createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+		createModel(foundList, boneArrayListTemp, true, ddlFRegion);
+		createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 		txtNFDetails.setText("");
 		chkNFFound.setSelected(false);
-	    }
-	    else 
-	    {
-		JOptionPane.showMessageDialog(this, "Please select a bone before updating", 
-			"Bone not selected", JOptionPane.INFORMATION_MESSAGE);
-
-	    }
+	    
 	}
 	else if (source == ddlFRegion)
 	{
 	    foundList.clear();
-	    createModel(foundList, boneArrayListTemp, true, (String)ddlFRegion.getSelectedItem());
+	    createModel(foundList, boneArrayListTemp, true, ddlFRegion);
 	}
 	else if (source == ddlNFRegion)
 	{
 	    notFoundList.clear();
-	    createModel(notFoundList, boneArrayListTemp, false, (String)ddlNFRegion.getSelectedItem());
+	    createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 	}
     }
     @Override
@@ -230,6 +226,21 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    this.dispose();
 	}
     }
+    @Override
+    public void focusGained(FocusEvent event)
+    {
+	Object source = event.getSource();
+	if (source == txtFDetails)
+	{
+	    txtFDetails.selectAll();
+	}
+	if (source == txtNFDetails)
+	{
+	    txtNFDetails.selectAll();
+	}
+    }
+    @Override
+    public void focusLost(FocusEvent event){}
     @Override
     public void windowDeactivated(WindowEvent event){}
     @Override
@@ -258,7 +269,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         ddlNFRegion = new javax.swing.JComboBox();
         scrNFRegion = new javax.swing.JScrollPane();
         lstNFRegion = new javax.swing.JList();
-        jLabel2 = new javax.swing.JLabel();
+        lblNFRegion = new javax.swing.JLabel();
         pnlNFButtons = new javax.swing.JPanel();
         btnNFUpdate = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
@@ -274,13 +285,14 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         ddlFRegion = new javax.swing.JComboBox();
         scrFRegion = new javax.swing.JScrollPane();
         lstFRegion = new javax.swing.JList();
-        jLabel3 = new javax.swing.JLabel();
+        lblFRegion = new javax.swing.JLabel();
         pnlFDetails = new javax.swing.JPanel();
         scrFDetails = new javax.swing.JScrollPane();
         txtFDetails = new javax.swing.JTextArea();
         chkFFound = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
+        setTitle("Bone Details");
 
         pnlLabel.setLayout(new java.awt.BorderLayout());
 
@@ -291,7 +303,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlNF.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Not Found", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlNF.setLayout(new java.awt.BorderLayout());
 
-        ddlNFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Region", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
+        ddlNFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Full Body", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
         ddlNFRegion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ddlNFRegionActionPerformed(evt);
@@ -300,7 +312,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
         scrNFRegion.setViewportView(lstNFRegion);
 
-        jLabel2.setText("Body Region");
+        lblNFRegion.setText("Body Region");
 
         org.jdesktop.layout.GroupLayout pnlNFRegionLayout = new org.jdesktop.layout.GroupLayout(pnlNFRegion);
         pnlNFRegion.setLayout(pnlNFRegionLayout);
@@ -311,7 +323,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
                     .add(ddlNFRegion, 0, 206, Short.MAX_VALUE)
                     .add(pnlNFRegionLayout.createSequentialGroup()
                         .addContainerGap()
-                        .add(jLabel2)
+                        .add(lblNFRegion)
                         .add(0, 0, Short.MAX_VALUE))
                     .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlNFRegionLayout.createSequentialGroup()
                         .add(0, 0, Short.MAX_VALUE)
@@ -322,7 +334,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
             pnlNFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlNFRegionLayout.createSequentialGroup()
                 .addContainerGap()
-                .add(jLabel2)
+                .add(lblNFRegion)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(ddlNFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 24, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
@@ -416,11 +428,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
         pnlFound.add(pnlFButtons, java.awt.BorderLayout.PAGE_END);
 
-        ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select Region", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
+        ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Full Body", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
 
         scrFRegion.setViewportView(lstFRegion);
 
-        jLabel3.setText("Body Region");
+        lblFRegion.setText("Body Region");
 
         org.jdesktop.layout.GroupLayout pnlFRegionLayout = new org.jdesktop.layout.GroupLayout(pnlFRegion);
         pnlFRegion.setLayout(pnlFRegionLayout);
@@ -428,7 +440,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
             pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlFRegionLayout.createSequentialGroup()
                 .addContainerGap()
-                .add(jLabel3)
+                .add(lblFRegion)
                 .addContainerGap())
             .add(ddlFRegion, 0, 202, Short.MAX_VALUE)
             .add(pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
@@ -440,7 +452,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
             pnlFRegionLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlFRegionLayout.createSequentialGroup()
                 .addContainerGap()
-                .add(jLabel3)
+                .add(lblFRegion)
                 .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED)
                 .add(ddlFRegion, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, org.jdesktop.layout.GroupLayout.DEFAULT_SIZE, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(315, Short.MAX_VALUE))
@@ -523,9 +535,9 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     private javax.swing.JCheckBox chkNFFound;
     private javax.swing.JComboBox ddlFRegion;
     private javax.swing.JComboBox ddlNFRegion;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel lblCaseNum;
+    private javax.swing.JLabel lblFRegion;
+    private javax.swing.JLabel lblNFRegion;
     private javax.swing.JList lstFRegion;
     private javax.swing.JList lstNFRegion;
     private javax.swing.JPanel pnlFButtons;
