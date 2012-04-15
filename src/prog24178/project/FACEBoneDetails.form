@@ -53,6 +53,7 @@
         <Component class="javax.swing.JLabel" name="lblCaseNum">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="toolTipText" type="java.lang.String" value="Current case number"/>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                 <TitledBorder justification="2" title="Case Number"/>
@@ -139,6 +140,7 @@
                     <StringItem index="13" value=" "/>
                   </StringArray>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Select the region of the body you want to focus on"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ddlNFRegionActionPerformed"/>
@@ -156,6 +158,7 @@
                     <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
                       <StringArray count="0"/>
                     </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="List of bones not found "/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -178,11 +181,9 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
                       <Component id="btnNFUpdate" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="204" max="32767" attributes="0"/>
-                      <Component id="btnExit" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace pref="210" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -190,10 +191,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btnNFUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnExit" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="btnNFUpdate" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -201,12 +199,9 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="btnNFUpdate">
               <Properties>
+                <Property name="mnemonic" type="int" value="85"/>
                 <Property name="text" type="java.lang.String" value="Update"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="btnExit">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Exit"/>
+                <Property name="toolTipText" type="java.lang.String" value="Update not found list"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -255,6 +250,7 @@
                   <Properties>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Observations of the bones"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                         <TitledBorder justification="2" title="Bone Details"/>
@@ -267,6 +263,7 @@
             <Component class="javax.swing.JCheckBox" name="chkNFFound">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Bone Found"/>
+                <Property name="toolTipText" type="java.lang.String" value="Check here to list the bone as found"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -295,9 +292,9 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                      <EmptySpace pref="203" max="32767" attributes="0"/>
                       <Component id="btnFUpdate" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="216" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="144" max="-2" attributes="0"/>
                       <Component id="btnFBack" min="-2" pref="88" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -318,12 +315,16 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="btnFUpdate">
               <Properties>
+                <Property name="mnemonic" type="int" value="85"/>
                 <Property name="text" type="java.lang.String" value="Update"/>
+                <Property name="toolTipText" type="java.lang.String" value="Update found list"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="btnFBack">
               <Properties>
+                <Property name="mnemonic" type="int" value="66"/>
                 <Property name="text" type="java.lang.String" value="Back"/>
+                <Property name="toolTipText" type="java.lang.String" value="Return to case summary"/>
               </Properties>
             </Component>
           </SubComponents>
@@ -391,6 +392,7 @@
                     <StringItem index="13" value=" "/>
                   </StringArray>
                 </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Select the region of the body you want to focus on"/>
               </Properties>
             </Component>
             <Container class="javax.swing.JScrollPane" name="scrFRegion">
@@ -405,6 +407,7 @@
                     <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
                       <StringArray count="0"/>
                     </Property>
+                    <Property name="toolTipText" type="java.lang.String" value="List of bones found"/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -465,6 +468,7 @@
                   <Properties>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="rows" type="int" value="5"/>
+                    <Property name="toolTipText" type="java.lang.String" value="Observations of the bones"/>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
                         <TitledBorder justification="2" title="Bone Details"/>
@@ -477,6 +481,7 @@
             <Component class="javax.swing.JCheckBox" name="chkFFound">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Bone Found"/>
+                <Property name="toolTipText" type="java.lang.String" value="Uncheck here to list the bone as not found"/>
               </Properties>
             </Component>
           </SubComponents>

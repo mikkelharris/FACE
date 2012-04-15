@@ -30,6 +30,8 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
     /**
      * Creates new form FACEBoneDetails
+     * @param caseNum
+     * @param boneArray  
      */
     public FACEBoneDetails(String caseNum, ArrayList<BoneInfo> boneArray)
     {
@@ -37,7 +39,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	btnFBack.addActionListener(this);
 	btnFUpdate.addActionListener(this);
 	btnNFUpdate.addActionListener(this);
-	btnExit.addActionListener(this);
 	lstFRegion.addListSelectionListener(this);
 	lstNFRegion.addListSelectionListener(this);
 	ddlFRegion.addActionListener(this);
@@ -70,7 +71,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
     }
-    public FACEBoneDetails(){}
     private void createModel(DefaultListModel listModel, ArrayList arrayList, 
 	    boolean status, JComboBox comboBox)
     {
@@ -106,6 +106,10 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
 	boneFile.close();
     }
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void valueChanged(ListSelectionEvent event)
     {
@@ -142,20 +146,16 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    }
 	}
     }
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
 	
-	if (source == btnExit)
-	{
-	    updateFile();
-	    FACEStart faceStart = new FACEStart();
-	    faceStart.pack();
-	    faceStart.setVisible(true);
-	    this.dispose();
-	}
-	else if (source == btnFBack)
+	if (source == btnFBack)
 	{
 	    updateFile();
 	    FACECaseSummary faceCaseSummary = new FACECaseSummary(lblCaseNum.getText());
@@ -212,6 +212,10 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 	}
     }
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowClosing(WindowEvent event)
     {
@@ -226,6 +230,10 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    this.dispose();
 	}
     }
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void focusGained(FocusEvent event)
     {
@@ -239,18 +247,46 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    txtNFDetails.selectAll();
 	}
     }
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void focusLost(FocusEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowDeactivated(WindowEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowActivated(WindowEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowDeiconified(WindowEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowIconified(WindowEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowClosed(WindowEvent event){}
+    /**
+     * 
+     * @param event
+     */
     @Override
     public void windowOpened(WindowEvent event){}
     /**
@@ -272,7 +308,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         lblNFRegion = new javax.swing.JLabel();
         pnlNFButtons = new javax.swing.JPanel();
         btnNFUpdate = new javax.swing.JButton();
-        btnExit = new javax.swing.JButton();
         pnlNFDetails = new javax.swing.JPanel();
         scrNFDetails = new javax.swing.JScrollPane();
         txtNFDetails = new javax.swing.JTextArea();
@@ -297,6 +332,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlLabel.setLayout(new java.awt.BorderLayout());
 
         lblCaseNum.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblCaseNum.setToolTipText("Current case number");
         lblCaseNum.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Case Number", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlLabel.add(lblCaseNum, java.awt.BorderLayout.CENTER);
 
@@ -304,12 +340,14 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlNF.setLayout(new java.awt.BorderLayout());
 
         ddlNFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Full Body", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
+        ddlNFRegion.setToolTipText("Select the region of the body you want to focus on");
         ddlNFRegion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ddlNFRegionActionPerformed(evt);
             }
         });
 
+        lstNFRegion.setToolTipText("List of bones not found ");
         scrNFRegion.setViewportView(lstNFRegion);
 
         lblNFRegion.setText("Body Region");
@@ -343,28 +381,24 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
         pnlNF.add(pnlNFRegion, java.awt.BorderLayout.LINE_START);
 
+        btnNFUpdate.setMnemonic('U');
         btnNFUpdate.setText("Update");
-
-        btnExit.setText("Exit");
+        btnNFUpdate.setToolTipText("Update not found list");
 
         org.jdesktop.layout.GroupLayout pnlNFButtonsLayout = new org.jdesktop.layout.GroupLayout(pnlNFButtons);
         pnlNFButtons.setLayout(pnlNFButtonsLayout);
         pnlNFButtonsLayout.setHorizontalGroup(
             pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlNFButtonsLayout.createSequentialGroup()
-                .add(131, 131, 131)
+                .add(206, 206, 206)
                 .add(btnNFUpdate)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 204, Short.MAX_VALUE)
-                .add(btnExit)
-                .addContainerGap())
+                .addContainerGap(210, Short.MAX_VALUE))
         );
         pnlNFButtonsLayout.setVerticalGroup(
             pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(org.jdesktop.layout.GroupLayout.TRAILING, pnlNFButtonsLayout.createSequentialGroup()
                 .add(0, 0, Short.MAX_VALUE)
-                .add(pnlNFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.BASELINE)
-                    .add(btnNFUpdate)
-                    .add(btnExit)))
+                .add(btnNFUpdate))
         );
 
         pnlNF.add(pnlNFButtons, java.awt.BorderLayout.PAGE_END);
@@ -373,10 +407,12 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
         txtNFDetails.setColumns(20);
         txtNFDetails.setRows(5);
+        txtNFDetails.setToolTipText("Observations of the bones");
         txtNFDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Bone Details", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         scrNFDetails.setViewportView(txtNFDetails);
 
         chkNFFound.setText("Bone Found");
+        chkNFFound.setToolTipText("Check here to list the bone as found");
 
         org.jdesktop.layout.GroupLayout pnlNFDetailsLayout = new org.jdesktop.layout.GroupLayout(pnlNFDetails);
         pnlNFDetails.setLayout(pnlNFDetailsLayout);
@@ -402,18 +438,22 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlFound.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Found", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlFound.setLayout(new java.awt.BorderLayout());
 
+        btnFUpdate.setMnemonic('U');
         btnFUpdate.setText("Update");
+        btnFUpdate.setToolTipText("Update found list");
 
+        btnFBack.setMnemonic('B');
         btnFBack.setText("Back");
+        btnFBack.setToolTipText("Return to case summary");
 
         org.jdesktop.layout.GroupLayout pnlFButtonsLayout = new org.jdesktop.layout.GroupLayout(pnlFButtons);
         pnlFButtons.setLayout(pnlFButtonsLayout);
         pnlFButtonsLayout.setHorizontalGroup(
             pnlFButtonsLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
             .add(pnlFButtonsLayout.createSequentialGroup()
-                .add(131, 131, 131)
+                .addContainerGap(203, Short.MAX_VALUE)
                 .add(btnFUpdate)
-                .addPreferredGap(org.jdesktop.layout.LayoutStyle.RELATED, 216, Short.MAX_VALUE)
+                .add(144, 144, 144)
                 .add(btnFBack, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE, 88, org.jdesktop.layout.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -429,7 +469,9 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlFound.add(pnlFButtons, java.awt.BorderLayout.PAGE_END);
 
         ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Full Body", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
+        ddlFRegion.setToolTipText("Select the region of the body you want to focus on");
 
+        lstFRegion.setToolTipText("List of bones found");
         scrFRegion.setViewportView(lstFRegion);
 
         lblFRegion.setText("Body Region");
@@ -468,10 +510,12 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 
         txtFDetails.setColumns(20);
         txtFDetails.setRows(5);
+        txtFDetails.setToolTipText("Observations of the bones");
         txtFDetails.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Bone Details", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         scrFDetails.setViewportView(txtFDetails);
 
         chkFFound.setText("Bone Found");
+        chkFFound.setToolTipText("Uncheck here to list the bone as not found");
 
         org.jdesktop.layout.GroupLayout pnlFDetailsLayout = new org.jdesktop.layout.GroupLayout(pnlFDetails);
         pnlFDetails.setLayout(pnlFDetailsLayout);
@@ -527,7 +571,6 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     }//GEN-LAST:event_ddlNFRegionActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnExit;
     private javax.swing.JButton btnFBack;
     private javax.swing.JButton btnFUpdate;
     private javax.swing.JButton btnNFUpdate;

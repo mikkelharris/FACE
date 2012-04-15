@@ -71,6 +71,7 @@
         <Component class="javax.swing.JButton" name="btnCreate">
           <Properties>
             <Property name="text" type="java.lang.String" value="Create Case"/>
+            <Property name="toolTipText" type="java.lang.String" value="Create a new case"/>
             <Property name="actionCommand" type="java.lang.String" value="=Create Case="/>
           </Properties>
         </Component>
@@ -81,6 +82,7 @@
                 <StringItem index="0" value="Retrieve Case"/>
               </StringArray>
             </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Retrieve an existing case"/>
           </Properties>
         </Component>
       </SubComponents>

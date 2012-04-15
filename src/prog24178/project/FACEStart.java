@@ -9,14 +9,15 @@ import javax.swing.JOptionPane;
  *
  * @author mikkelharris
  */
-public class FACEStart extends javax.swing.JFrame implements ActionListener, 
+public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	WindowListener
 {
     // Create new arrayList to hold caseNumbers
+
     private ArrayList<CaseInfo> caseArray = new ArrayList<CaseInfo>();
-    
+
     /**
-     * Creates new form FACEStart GUI 
+     * Creates new form FACEStart GUI
      */
     public FACEStart()
     {
@@ -30,9 +31,10 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	// Populate ddlRetrieve
 	createListArray("data/case.dat");
     }
+
     /**
-     * 
-     * @param casefile 
+     *
+     * @param casefile
      */
     private void createListArray(String casefile)
     {
@@ -47,15 +49,14 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 		// Create an array of fields using | as a delimiter
 		String[] fields = record.split("\\s*\\|\\s*");
 		// Create caseInfo opjects and add them to caseArray
-		CaseInfo caseInfo = new CaseInfo(fields[0], Integer.parseInt(fields[1]), fields[2], 
+		CaseInfo caseInfo = new CaseInfo(fields[0], Integer.parseInt(fields[1]), fields[2],
 			Integer.parseInt(fields[3]), fields[4]);
 		caseArray.add(caseInfo);
 	    }
 	    fileIn.close();
-	}
-	catch (Exception ex)
+	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this, "Error:\n" + ex.toString(), 
+	    JOptionPane.showMessageDialog(this, "Error:\n" + ex.toString(),
 		    "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	// Loop through the caseArray adding the caseNumbers to ddlRetrieve
@@ -64,63 +65,106 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	    ddlRetrieve.addItem(caseArray.get(i).getCaseNum());
 	}
     }
+
     /**
-     * 
-     * @param event 
+     *
+     * @param event
      */
     @Override
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
-	
+
 	if (source == btnCreate)
 	{
 	    // Create an instance of FACECaseDetails and dispose of current window
 	    FACECaseDetails faceCaseDetails = new FACECaseDetails();
 	    faceCaseDetails.pack();
 	    faceCaseDetails.setVisible(true);
-	    this.dispose();    
-	}
-	else if (source == ddlRetrieve)
+	    this.dispose();
+	} else if (source == ddlRetrieve)
 	{
 	    // Check to make sure a case is selected
 	    if (ddlRetrieve.getSelectedIndex() > 0)
 	    {
 		// Create an instance of FACECaseSummary and dispose of current window
-		FACECaseSummary faceSummary = new FACECaseSummary((String)ddlRetrieve.getSelectedItem());
+		FACECaseSummary faceSummary = new FACECaseSummary((String) ddlRetrieve.getSelectedItem());
 		faceSummary.pack();
 		faceSummary.setVisible(true);
 		this.dispose();
-	    } 
+	    }
 	}
     }
+
     /**
-     * 
-     * @param event 
+     *
+     * @param event
      */
     @Override
     public void windowClosing(WindowEvent event)
     {
 	// Confirm that user wants to exit program when they click the X
-	int exit = JOptionPane.showConfirmDialog(this, "Do you want to close FACE?", 
+	int exit = JOptionPane.showConfirmDialog(this, "Do you want to close FACE?",
 		"Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
 	    System.exit(0);
 	}
     }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowDeactivated(WindowEvent event){}
+    public void windowDeactivated(WindowEvent event)
+    {
+    }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowActivated(WindowEvent event){}
+    public void windowActivated(WindowEvent event)
+    {
+    }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowDeiconified(WindowEvent event){}
+    public void windowDeiconified(WindowEvent event)
+    {
+    }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowIconified(WindowEvent event){}
+    public void windowIconified(WindowEvent event)
+    {
+    }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowClosed(WindowEvent event){}
+    public void windowClosed(WindowEvent event)
+    {
+    }
+
+    /**
+     * 
+     * @param event
+     */
     @Override
-    public void windowOpened(WindowEvent event){}
+    public void windowOpened(WindowEvent event)
+    {
+    }
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -141,9 +185,11 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Forensic Anthropology Case Evidence", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
 
         btnCreate.setText("Create Case");
+        btnCreate.setToolTipText("Create a new case");
         btnCreate.setActionCommand("=Create Case=");
 
         ddlRetrieve.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Retrieve Case" }));
+        ddlRetrieve.setToolTipText("Retrieve an existing case");
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

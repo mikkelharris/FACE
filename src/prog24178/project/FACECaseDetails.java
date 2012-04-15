@@ -14,13 +14,15 @@ import javax.swing.JOptionPane;
  *
  * @author mikkelharris
  */
-public class FACECaseDetails extends javax.swing.JFrame implements ActionListener, WindowListener
+public class FACECaseDetails extends javax.swing.JFrame implements ActionListener,
+	WindowListener, KeyListener
 {
+
     private PrintWriter caseLog;
     private PrintWriter boneLog;
     private CaseInfo caseInfo;
     private ArrayList<BoneInfo> boneArrayList = new ArrayList<BoneInfo>();
-    
+
     /**
      * Creates new form FACECaseDetails
      */
@@ -33,15 +35,17 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	ddlDay.addActionListener(this);
 	ddlMonth.addActionListener(this);
 	ddlYear.addActionListener(this);
+	// Add Key Listeners
+	txtLocation.addKeyListener(this);
 	// Add Window Listeners
 	this.addWindowListener(this);
 	this.setLocationRelativeTo(null);
 	// Add Year to index 0
-	ddlYear.addItem((Object)"Year");
+	ddlYear.addItem((Object) "Year");
 	// Add years to ddlYear
 	for (int i = 1900; i <= 2100; i++)
 	{
-	    ddlYear.addItem((Object)i);
+	    ddlYear.addItem((Object) i);
 	}
 
 	try
@@ -70,43 +74,40 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	}
     }
 
-    
-    
-    
     private String createCaseNumber()
     {
 	return (String)ddlDay.getSelectedItem() + (String)ddlMonth.getSelectedItem() + ddlYear.getSelectedItem().toString() + txtLocation.getText();
     }
-    
+
     private void printBonesArrayList(ArrayList boneArrayList)
     {
 	for (int i = 0; i < boneArrayList.size(); i++)
 	{
-	    BoneInfo bone = (BoneInfo)boneArrayList.get(i);
+	    BoneInfo bone = (BoneInfo) boneArrayList.get(i);
 	    boneLog.print(bone.toFileString());
 	}
     }
+
     private ArrayList createBones(String caseNumber)
     {
 	try
 	{
 	    Scanner fileIn = new Scanner(new File("data/boneTemplate.dat"));
-	    
+	    fileIn.useDelimiter("endOfLine\n");
 	    while (fileIn.hasNext())
 	    {
-		String record = fileIn.nextLine();
+		String record = fileIn.next();
 		String[] fields = record.split("\\s*\\|\\s*");
-		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2], 
+		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2],
 			fields[3], Boolean.parseBoolean(fields[4]));
 		boneArrayList.add(bone);
 		for (int i = 0; i < boneArrayList.size(); i++)
 		{
-		    BoneInfo boneTemp = (BoneInfo)boneArrayList.get(i);
+		    BoneInfo boneTemp = (BoneInfo) boneArrayList.get(i);
 		    boneTemp.setCaseNumber(caseNumber);
 		}
 	    }
-	}
-	catch (Exception ex)
+	} catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
 		    "Error reading template:\n"
@@ -115,41 +116,38 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	}
 	return boneArrayList;
     }
+
     @Override
     public void actionPerformed(ActionEvent event)
     {
 	Object source = event.getSource();
-	
+
 	if (source == btnCreateCase)
 	{
 	    try
 	    {
 		if (ddlDay.getSelectedIndex() == 0)
 		{
-		    JOptionPane.showMessageDialog(this, "Please select a Day\n", 
+		    JOptionPane.showMessageDialog(this, "Please select a Day\n",
 			    "Error", JOptionPane.ERROR_MESSAGE);
-		}
-		else 
+		} else
 		{
 		    if (ddlMonth.getSelectedIndex() == 0)
 		    {
 			JOptionPane.showMessageDialog(this, "Please select a Month\n",
 				"Error", JOptionPane.ERROR_MESSAGE);
-		    }
-		    else 
+		    } else
 		    {
 			if ("".equals(txtLocation.getText()))
 			{
-			    JOptionPane.showMessageDialog(this, "Please enter a Location\n"
-			    , "Error", JOptionPane.ERROR_MESSAGE);
-			}
-			else 
+			    JOptionPane.showMessageDialog(this, "Please enter a Location\n", "Error", JOptionPane.ERROR_MESSAGE);
+			} else
 			{
 			    String caseNum = createCaseNumber();
-			    caseInfo = new CaseInfo(createCaseNumber(), Integer.parseInt(ddlDay.getSelectedItem().toString()), 
-			    ddlMonth.getSelectedItem().toString(), 
-			    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
-			    
+			    caseInfo = new CaseInfo(createCaseNumber(), Integer.parseInt(ddlDay.getSelectedItem().toString()),
+				    ddlMonth.getSelectedItem().toString(),
+				    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
+
 			    caseLog.print(caseInfo.toFileString());
 			    printBonesArrayList(createBones(caseNum));
 
@@ -160,17 +158,15 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 			    faceCaseSummary.pack();
 			    faceCaseSummary.setVisible(true);
 			    this.dispose();
-			}	
+			}
 		    }
-		}	
-	    } 
-	    catch (NumberFormatException ex)
+		}
+	    } catch (NumberFormatException ex)
 	    {
 		JOptionPane.showMessageDialog(this, "Please select a Year\n",
 			"Error", JOptionPane.ERROR_MESSAGE);
-	    } 
-	}
-	else if (source == btnBack)
+	    }
+	} else if (source == btnBack)
 	{
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
@@ -178,10 +174,11 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    this.dispose();
 	}
     }
+
     @Override
     public void windowClosing(WindowEvent event)
     {
-	int exit = JOptionPane.showConfirmDialog(this, "Do you want to cancel creating a case?", 
+	int exit = JOptionPane.showConfirmDialog(this, "Do you want to cancel creating a case?",
 		"Cancel Case Creation", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
@@ -191,18 +188,102 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    this.dispose();
 	}
     }
+
     @Override
-    public void windowDeactivated(WindowEvent event){}
+    public void keyReleased(KeyEvent event)
+    {
+    }
+
     @Override
-    public void windowActivated(WindowEvent event){}
+    public void keyPressed(KeyEvent event)
+    {
+    }
+
     @Override
-    public void windowDeiconified(WindowEvent event){}
+    public void keyTyped(KeyEvent event)
+    {
+	{
+	    if (event.getSource() == txtLocation)
+	    {
+		if (event.getKeyChar() == KeyEvent.VK_ENTER)
+		{
+		    try
+		    {
+			if (ddlDay.getSelectedIndex() == 0)
+			{
+			    JOptionPane.showMessageDialog(this, "Please select a Day\n",
+				    "Error", JOptionPane.ERROR_MESSAGE);
+			} else
+			{
+			    if (ddlMonth.getSelectedIndex() == 0)
+			    {
+				JOptionPane.showMessageDialog(this, "Please select a Month\n",
+					"Error", JOptionPane.ERROR_MESSAGE);
+			    } else
+			    {
+				if ("".equals(txtLocation.getText()))
+				{
+				    JOptionPane.showMessageDialog(this, "Please enter a Location\n", "Error", JOptionPane.ERROR_MESSAGE);
+				} else
+				{
+				    String caseNum = createCaseNumber();
+				    caseInfo = new CaseInfo(createCaseNumber(), Integer.parseInt(ddlDay.getSelectedItem().toString()),
+					    ddlMonth.getSelectedItem().toString(),
+					    Integer.parseInt(ddlYear.getSelectedItem().toString()), txtLocation.getText());
+
+				    caseLog.print(caseInfo.toFileString());
+				    printBonesArrayList(createBones(caseNum));
+
+				    caseLog.close();
+				    boneLog.close();
+
+				    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
+				    faceCaseSummary.pack();
+				    faceCaseSummary.setVisible(true);
+				    this.dispose();
+				}
+			    }
+			}
+		    } catch (NumberFormatException ex)
+		    {
+			JOptionPane.showMessageDialog(this, "Please select a Year\n",
+				"Error", JOptionPane.ERROR_MESSAGE);
+		    }
+		}
+	    }
+	}
+    }
+
     @Override
-    public void windowIconified(WindowEvent event){}
+    public void windowDeactivated(WindowEvent event)
+    {
+    }
+
     @Override
-    public void windowClosed(WindowEvent event){}
+    public void windowActivated(WindowEvent event)
+    {
+    }
+
     @Override
-    public void windowOpened(WindowEvent event){}
+    public void windowDeiconified(WindowEvent event)
+    {
+    }
+
+    @Override
+    public void windowIconified(WindowEvent event)
+    {
+    }
+
+    @Override
+    public void windowClosed(WindowEvent event)
+    {
+    }
+
+    @Override
+    public void windowOpened(WindowEvent event)
+    {
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -233,13 +314,23 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 
         lblLocation.setText("Location:");
 
-        btnBack.setText("Back");
+        txtLocation.setToolTipText("Enter the location");
 
+        btnBack.setMnemonic('B');
+        btnBack.setText("Back");
+        btnBack.setToolTipText("Return to start screen");
+
+        btnCreateCase.setMnemonic('C');
         btnCreateCase.setText("Create Case");
+        btnCreateCase.setToolTipText("Create a new case with this case number.");
 
         ddlDay.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Day", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
+        ddlDay.setToolTipText("Choose the day");
 
         ddlMonth.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Month", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" }));
+        ddlMonth.setToolTipText("Choose the month");
+
+        ddlYear.setToolTipText("Choose the year");
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -306,7 +397,6 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton btnCreateCase;
