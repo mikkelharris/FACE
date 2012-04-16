@@ -1,23 +1,20 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package prog24178.project;
 
 import java.awt.event.*;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
-import javax.swing.DefaultListModel;
-import javax.swing.JComboBox;
-import javax.swing.JOptionPane;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
+import javax.swing.*;
+import javax.swing.event.*;
 
 /**
- *
- * @author mikkelharris
+ * Name: Mikkel Harris 
+ * File: FACEBoneDetails.java
+ * Other Files in this Project:
+ *	FACECaseDetails.java 
+ *	FACECaseSummary.java 
+ *	BoneInfo.java
+ *	CaseInfo.java
+ * Main class: FACEStart.java 
  */
 public class FACEBoneDetails extends javax.swing.JFrame implements 
 	ActionListener, WindowListener, ListSelectionListener, FocusListener
@@ -29,6 +26,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     private PrintWriter boneFile;
 
     /**
+     * Constructor that creates the listModels and sets GUI.
      * Creates new form FACEBoneDetails
      * @param caseNum
      * @param boneArray  
@@ -36,47 +34,62 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
     public FACEBoneDetails(String caseNum, ArrayList<BoneInfo> boneArray)
     {
 	initComponents();
+	// Add action listeners
 	btnFBack.addActionListener(this);
 	btnFUpdate.addActionListener(this);
 	btnNFUpdate.addActionListener(this);
-	lstFRegion.addListSelectionListener(this);
-	lstNFRegion.addListSelectionListener(this);
 	ddlFRegion.addActionListener(this);
 	ddlNFRegion.addActionListener(this);
+	// Add list selection listeners
+	lstFRegion.addListSelectionListener(this);
+	lstNFRegion.addListSelectionListener(this);
+	// Add focus listeners
 	txtFDetails.addFocusListener(this);
 	txtNFDetails.addFocusListener(this);
-	
+	// Add window listener
 	this.addWindowListener(this);
+	// Set window location
 	this.setLocationRelativeTo(null);
 	
 	lblCaseNum.setText(caseNum);
 	boneArrayListTemp = boneArray;
-	
+	// Set listModels
 	foundList = new DefaultListModel();
 	notFoundList = new DefaultListModel();
 	lstFRegion.setModel(foundList);
 	lstNFRegion.setModel(notFoundList);
-	
+	// Fill lists with array information
 	createModel(foundList, boneArrayListTemp, true, ddlFRegion);
 	createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
-	
+	// Try to access bones file
 	try
 	{
-	    boneFile = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
+	    boneFile = new PrintWriter(new BufferedWriter(new 
+		    FileWriter("data/bones.dat", true)));
 	} 
 	catch (Exception ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(this,"Error accessing data file:\n"
+	    JOptionPane.showMessageDialog(this,"Error accessing bones.dat:\n"
 		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
     }
+    /**
+     * Adds items to the listModel if it matches
+     * @param listModel the listModel being added to
+     * @param arrayList the arrayList to get the information from
+     * @param status one of the parameters to search the arrayList with
+     * @param comboBox one of the parameters to search the arrayList with
+     */
     private void createModel(DefaultListModel listModel, ArrayList arrayList, 
 	    boolean status, JComboBox comboBox)
     {
+	// Loop through the arrayList
 	for (int i = 0; i < arrayList.size(); i++)
 	{
+	    // Create bone objects
 	    bone = (BoneInfo)arrayList.get(i);
+	    // If the comboBox selection is 0 add all arrayList objects to the listModel
 	    if (comboBox.getSelectedIndex() == 0)
 	    {
 		if (status == bone.isFoundStatus())
@@ -84,6 +97,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		    listModel.addElement(bone.getBoneName());
 		}
 	    }
+	    // Otherwise add only the objects that match the comboBox selection
 	    else 
 	    {
 		if (status == bone.isFoundStatus())
@@ -96,9 +110,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    }  
 	}
     }
+    /**
+     * Update the bones file with the arrayList information
+     */
     private void updateFile()
     {
-	
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
 	{
 	    BoneInfo bone = (BoneInfo)boneArrayListTemp.get(i);
@@ -107,19 +123,23 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	boneFile.close();
     }
     /**
-     * 
-     * @param event
+     * Called when the list element that is selected is changed update the bone details field
+     * @param event caused when the user changes their selection
      */
     @Override
     public void valueChanged(ListSelectionEvent event)
     {
+	// Create object for the source of the event
 	Object source = event.getSource();
-
+	// Check for source of event
 	if (source == lstFRegion)
 	{
+	    // Check if selection is greater than 0
 	    if (lstFRegion.getSelectedIndex() >= 0)
 	    {
+		// Reset the checkBox to selected
 		chkFFound.setSelected(true);
+		// Loop through the arrayList retrieving the bone condition and setting the bone details field
 		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
 		    bone = (BoneInfo)boneArrayListTemp.get(i);
@@ -132,9 +152,12 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
 	else if (source == lstNFRegion)
 	{
+	    // Check if selections is greater than 0
 	    if (lstNFRegion.getSelectedIndex() >= 0)
 	    {
+		// Reset the checkBox to unselected
 		chkNFFound.setSelected(false);
+		// Loop through the arrayList retrieving the bone condition and setting the bone details field
 		for (int i = 0; i < boneArrayListTemp.size(); i++)
 		{
 		    bone = (BoneInfo)boneArrayListTemp.get(i);
@@ -147,16 +170,18 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
     }
     /**
-     * 
-     * @param event
+     * Receives the event and performs actions depending on where the event originated.
+     * @param event the event created from the GUI
      */
     @Override
     public void actionPerformed(ActionEvent event)
     {
+	// Create object for the source of the event
 	Object source = event.getSource();
-	
+	// Check for source of event
 	if (source == btnFBack)
 	{
+	    // Update file and create an instance of FACESummary and dispose of current window
 	    updateFile();
 	    FACECaseSummary faceCaseSummary = new FACECaseSummary(lblCaseNum.getText());
 	    faceCaseSummary.pack();
@@ -165,64 +190,76 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
 	else if (source == btnFUpdate)
 	{
-		for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    // Loop through the arrayList creating bone objects
+	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    {
+		bone = (BoneInfo)boneArrayListTemp.get(i);
+		// Check if the boneName is the same as the selected list item
+		if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
 		{
-		    bone = (BoneInfo)boneArrayListTemp.get(i);
-		    if (bone.getBoneName().equals(lstFRegion.getModel().getElementAt(lstFRegion.getSelectedIndex())))
-		    {
-			bone.setCondition(txtFDetails.getText());
-			bone.setFoundStatus(chkFFound.isSelected());
-		    }   
-		}
-		foundList.clear();
-		notFoundList.clear();
-		createModel(foundList, boneArrayListTemp, true, ddlFRegion);
-		createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
-		txtFDetails.setText("");
-		chkFFound.setSelected(false);
+		    // Update the arrayList element with the new data
+		    bone.setCondition(txtFDetails.getText());
+		    bone.setFoundStatus(chkFFound.isSelected());
+		}   
+	    }
+	    // Clear the and update the listModels with the new data reseting GUI elements
+	    foundList.clear();
+	    notFoundList.clear();
+	    createModel(foundList, boneArrayListTemp, true, ddlFRegion);
+	    createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
+	    txtFDetails.setText("");
+	    chkFFound.setSelected(false);
 	    
 	}
 	else if (source == btnNFUpdate)
 	{
-		for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    // Loop through the arrayList creating bone objects
+	    for (int i = 0; i < boneArrayListTemp.size(); i++)
+	    {
+		bone = (BoneInfo)boneArrayListTemp.get(i);
+		// Check if the boneName is the same as the selected list item
+		if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
 		{
-		    bone = (BoneInfo)boneArrayListTemp.get(i);
-		    if (bone.getBoneName().equals(lstNFRegion.getModel().getElementAt(lstNFRegion.getSelectedIndex())))
-		    {
-			bone.setCondition(txtNFDetails.getText());
-			bone.setFoundStatus(chkNFFound.isSelected());
-		    }   
-		}
-		foundList.clear();
-		notFoundList.clear();
-		createModel(foundList, boneArrayListTemp, true, ddlFRegion);
-		createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
-		txtNFDetails.setText("");
-		chkNFFound.setSelected(false);
+		    // Update the arrayList element with the new data
+		    bone.setCondition(txtNFDetails.getText());
+		    bone.setFoundStatus(chkNFFound.isSelected());
+		}   
+	    }
+	    // Clear the and update the listModels with the new data reseting GUI elements
+	    foundList.clear();
+	    notFoundList.clear();
+	    createModel(foundList, boneArrayListTemp, true, ddlFRegion);
+	    createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
+	    txtNFDetails.setText("");
+	    chkNFFound.setSelected(false);
 	    
 	}
 	else if (source == ddlFRegion)
 	{
+	    // Update the listModel
 	    foundList.clear();
 	    createModel(foundList, boneArrayListTemp, true, ddlFRegion);
 	}
 	else if (source == ddlNFRegion)
 	{
+	    // Update the listModel
 	    notFoundList.clear();
 	    createModel(notFoundList, boneArrayListTemp, false, ddlNFRegion);
 	}
     }
     /**
-     * 
-     * @param event
+     * Called when the user closes the window.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowClosing(WindowEvent event)
     {
+	// Display message dialog asking if user wants to exit
 	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?", 
 		"Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
+	    // Update file and create an instance of FACEStart and dispose of current window
 	    updateFile();
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
@@ -231,13 +268,15 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
     }
     /**
-     * 
-     * @param event
+     * Called when  an element of the GUI gains focus
+     * @param event the event created when and element gains focus
      */
     @Override
     public void focusGained(FocusEvent event)
     {
+	// Create object for the source of the event
 	Object source = event.getSource();
+	// Select all the text of the area that gained focus
 	if (source == txtFDetails)
 	{
 	    txtFDetails.selectAll();
@@ -248,47 +287,64 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	}
     }
     /**
-     * 
+     * Called when the element of the GUI loses focus
      * @param event
      */
     @Override
     public void focusLost(FocusEvent event){}
     /**
-     * 
-     * @param event
+     * Called when the window is not active.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowDeactivated(WindowEvent event){}
+    public void windowDeactivated(WindowEvent event)
+    {
+    }
+
     /**
-     * 
-     * @param event
+     * Called when the window is activated.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowActivated(WindowEvent event){}
+    public void windowActivated(WindowEvent event)
+    {
+    }
+
     /**
-     * 
-     * @param event
+     * Called when the window is brought back from being minimized.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowDeiconified(WindowEvent event){}
+    public void windowDeiconified(WindowEvent event)
+    {
+    }
+
     /**
-     * 
-     * @param event
+     * Called when the window is minimized.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowIconified(WindowEvent event){}
+    public void windowIconified(WindowEvent event)
+    {
+    }
+
     /**
-     * 
-     * @param event
+     * Called when the window is disposed.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowClosed(WindowEvent event){}
+    public void windowClosed(WindowEvent event)
+    {
+    }
+
     /**
-     * 
-     * @param event
+     * Called when the window is first opened.
+     * @param event the event created from closing the window
      */
     @Override
-    public void windowOpened(WindowEvent event){}
+    public void windowOpened(WindowEvent event)
+    {
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -347,6 +403,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
             }
         });
 
+        lstNFRegion.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         lstNFRegion.setToolTipText("List of bones not found ");
         scrNFRegion.setViewportView(lstNFRegion);
 
@@ -438,7 +495,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         pnlFound.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Found", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION));
         pnlFound.setLayout(new java.awt.BorderLayout());
 
-        btnFUpdate.setMnemonic('U');
+        btnFUpdate.setMnemonic('d');
         btnFUpdate.setText("Update");
         btnFUpdate.setToolTipText("Update found list");
 
@@ -471,6 +528,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
         ddlFRegion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Full Body", "Head", "Torso", "Spine", "Pelvis", "Right Arm", "Left Arm", "Right Hand", "Left Hand", "Right Leg", "Left Leg", "Right Foot", "Left Foot", " " }));
         ddlFRegion.setToolTipText("Select the region of the body you want to focus on");
 
+        lstFRegion.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         lstFRegion.setToolTipText("List of bones found");
         scrFRegion.setViewportView(lstFRegion);
 

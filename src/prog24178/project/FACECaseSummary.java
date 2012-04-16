@@ -1,73 +1,92 @@
- /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package prog24178.project;
 
 import java.awt.event.*;
 import java.io.*;
 import java.util.*;
 import javax.swing.JOptionPane;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableColumn;
+import javax.swing.table.*;
 
 /**
- *
- * @author mikkelharris
+ * Name: Mikkel Harris 
+ * File: FACECaseSummary.java 
+ * Other Files in this Project:
+ *	FACECaseDetails.java 
+ *	FACEBoneDetails.java
+ *	BoneInfo.java
+ *	CaseInfo.java
+ * Main class: FACEStart.java 
  */
-public class FACECaseSummary extends javax.swing.JFrame implements ActionListener, WindowListener
+public class FACECaseSummary extends javax.swing.JFrame implements 
+	ActionListener, WindowListener
 {
-    // private PrintWriter caseLog;
-
+    // Create printwriter for the boneTemp.dat file
     private PrintWriter boneFileTemp;
+    // Create printwriter for the bones.dat file to overwrite
     private PrintWriter boneFileOverwrite;
+    // Create printwriter for the boens.dat file to append
     private PrintWriter boneFileAppend;
+    // Create ArrayLists
     private ArrayList<BoneInfo> boneArray = new ArrayList<BoneInfo>(210);
     private ArrayList<BoneInfo> completeBoneArray = new ArrayList<BoneInfo>();
     private ArrayList<BoneInfo> boneArrayListTemp = new ArrayList<BoneInfo>();
+    // Create Default Table Model
     DefaultTableModel remainsModel = new DefaultTableModel();
 
     /**
-     * Creates new form FACE1
+     * Constructor that creates the array and sets GUI.
+     * Creates new form FACECaseSummary
      * @param caseNum 
      */
     public FACECaseSummary(String caseNum)
     {
 	initComponents();
+	// Add Action Listeners
 	btnEdit.addActionListener(this);
 	btnExitCase.addActionListener(this);
+	// Add window listener
 	this.addWindowListener(this);
+	// Set window location
 	this.setLocationRelativeTo(null);
 
 	lblCaseNumber.setText(caseNum);
 	tblRemains.setModel(remainsModel);
-
+	// Set table column headings
 	remainsModel.setColumnIdentifiers(new String[] {"Bone", "Condition"});
+	// Set column width
 	int width1 = 175;
 	int width2 = (tblRemains.getWidth() - width1);
 	TableColumn col1 = tblRemains.getColumnModel().getColumn(0);
 	TableColumn col2 = tblRemains.getColumnModel().getColumn(1);
 	col1.setPreferredWidth(width1);
 	col2.setPreferredWidth(width2);
-
+	// Create an array from the bones.dat file using the current caseNum
 	createArray("data/bones.dat", caseNum);
+	// Loop through array looking for found bones
 	for (int i = 0; i < boneArray.size(); i++)
 	{
 	    BoneInfo bone = (BoneInfo) boneArray.get(i);
 	    if (bone.isFoundStatus())
 	    {
-		remainsModel.addRow(new String[] {bone.getBoneName(), bone.getCondition()});
+		// Add relevant bones to table
+		remainsModel.addRow(new String[] {bone.getBoneName(), 
+		    bone.getCondition()});
 	    }
 	}
-
-	overWriteFile("data/bones.dat");
+	// Overwrite bones.dat without bones that are currently being used
+	overWriteFile();
     }
-
+    /**
+     * Creates an array using the bones file and the caseNum and a bonesTemp file.
+     * @param casefile the file being scanned
+     * @param caseNum the current caseNumber
+     */
     private void createArray(String casefile, String caseNum)
     {
+	// Try accessing the bonesTemp file
 	try
 	{
-	    boneFileTemp = new PrintWriter(new BufferedWriter(new FileWriter("data/bonesTemp.dat", false)));
+	    boneFileTemp = new PrintWriter(new BufferedWriter(new 
+		    FileWriter("data/bonesTemp.dat", false)));
 
 	} catch (Exception ex)
 	{
@@ -77,21 +96,27 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
+	// Try reading the bones file and creating arrays
 	try
 	{
 	    Scanner fileIn = new Scanner(new File(casefile));
+	    // Use "endOfLine" as the delimiter
 	    fileIn.useDelimiter("endOfLine\n");
 	    while (fileIn.hasNext())
 	    {
-
 		String record = fileIn.next();
+		// Use | as a delimiter for record
 		String[] fields = record.split("\\s*\\|\\s*");
+		// Create bone objects
 		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2],
 			fields[3], Boolean.parseBoolean(fields[4]));
-		if (fields[0].equals(caseNum))
+		// if the bone object matches the current caseNumber add it to 
+		// boneArray and the boneTemp file
+		if (fields[0].trim().equals(caseNum))
 		{
 		    boneArray.add(bone);
 		    boneFileTemp.print(bone.toFileString());
+		// if not then add it to the bones file
 		} else
 		{
 		    completeBoneArray.add(bone);
@@ -99,6 +124,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	    }
 	    fileIn.close();
 	    fileIn = null;
+	// Display dialog with error
 	} catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
@@ -108,12 +134,16 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	}
 	boneFileTemp.close();
     }
-
-    private void updateFile(String casesString)
+    /**
+     * Appends data to the bones file
+     */
+    private void updateFile()
     {
+	// Try accessing the bones
 	try
 	{
-	    boneFileAppend = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", true)));
+	    boneFileAppend = new PrintWriter(new BufferedWriter(new 
+		    FileWriter("data/bones.dat", true)));
 
 	} catch (Exception ex)
 	{
@@ -123,17 +153,22 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
+	// Try scanning the bonesTemp file
 	try
 	{
 	    Scanner fileIn = new Scanner(new File("data/bonesTemp.dat"));
+	    // Use "endOfLine" as the delimiter
 	    fileIn.useDelimiter("endOfLine\n");
 
 	    while (fileIn.hasNext())
 	    {
 		String record = fileIn.next();
+		// Use | as a delimiter for record
 		String[] fields = record.split("\\s*\\|\\s*");
+		// Create bone objects
 		BoneInfo bone = new BoneInfo(fields[0], fields[1], fields[2],
 			fields[3], Boolean.parseBoolean(fields[4]));
+		// Add bone to arrayList
 		boneArrayListTemp.add(bone);
 	    }
 	} catch (Exception ex)
@@ -143,6 +178,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
+	// Add bone to bones file
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
 	{
 	    BoneInfo bone = (BoneInfo) boneArrayListTemp.get(i);
@@ -150,12 +186,16 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 	}
 	boneFileAppend.close();
     }
-
-    private void overWriteFile(String casefile)
+    /**
+     * Overwrite data in bones file
+     */
+    private void overWriteFile()
     {
+	// Try accessing bones file
 	try
 	{
-	    boneFileOverwrite = new PrintWriter(new BufferedWriter(new FileWriter("data/bones.dat", false)));
+	    boneFileOverwrite = new PrintWriter(new BufferedWriter(new 
+		    FileWriter("data/bones.dat", false)));
 	} catch (Exception ex)
 	{
 	    JOptionPane.showMessageDialog(this,
@@ -163,6 +203,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
 		    + ex.toString(), "Error",
 		    JOptionPane.ERROR_MESSAGE);
 	}
+	// Overwrite bones file with the arryList without the current case
 	for (int i = 0; i < completeBoneArray.size(); i++)
 	{
 	    boneFileOverwrite.print(completeBoneArray.get(i).toFileString());
@@ -171,23 +212,27 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Receives the event and performs actions depending on where the event originated.
+     * @param event the event created from the GUI
      */
     @Override
     public void actionPerformed(ActionEvent event)
     {
+	// Create object for the source of the event
 	Object source = event.getSource();
-
+	// Check for source of event	
 	if (source == btnEdit)
 	{
-	    FACEBoneDetails faceBoneDetails = new FACEBoneDetails(lblCaseNumber.getText(), boneArray);
+	    // Create an instance of FACEBoneDetails and dispose of current window
+	    FACEBoneDetails faceBoneDetails = new 
+		    FACEBoneDetails(lblCaseNumber.getText(), boneArray);
 	    faceBoneDetails.pack();
 	    faceBoneDetails.setVisible(true);
 	    this.dispose();
 	} else if (source == btnExitCase)
 	{
-	    updateFile("data/bones.dat");
+	    // Update file and create an instance of FACEStart and dispose of current window
+	    updateFile();
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
 	    faceStart.setVisible(true);
@@ -196,17 +241,20 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the user closes the window.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowClosing(WindowEvent event)
     {
-	int exit = JOptionPane.showConfirmDialog(this, "Are you sure you wnat to exit the case?",
-		"Exit Case", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+	// Display message dialog asking if user wants to exit
+	int exit = JOptionPane.showConfirmDialog(this, 
+		"Are you sure you wnat to exit the case?", "Exit Case", 
+		JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
 	{
-	    updateFile("data/bones.dat");
+	    // Update file and create an instance of FACEStart and dispose of current window
+	    updateFile();
 	    FACEStart faceStart = new FACEStart();
 	    faceStart.pack();
 	    faceStart.setVisible(true);
@@ -215,8 +263,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is not active.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowDeactivated(WindowEvent event)
@@ -224,8 +272,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is activated.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowActivated(WindowEvent event)
@@ -233,8 +281,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is brought back from being minimized.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowDeiconified(WindowEvent event)
@@ -242,8 +290,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is minimized.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowIconified(WindowEvent event)
@@ -251,8 +299,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is disposed.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowClosed(WindowEvent event)
@@ -260,8 +308,8 @@ public class FACECaseSummary extends javax.swing.JFrame implements ActionListene
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is first opened.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowOpened(WindowEvent event)

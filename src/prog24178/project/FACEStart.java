@@ -6,18 +6,24 @@ import java.util.*;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author mikkelharris
+ * Name: Mikkel Harris 
+ * Assignment: FACE - Final Project
+ * Program: Computer Systems Technology - Systems Analyst
+ * 
+ * Description: This program is intended for use by forensic anthropologists to 
+ * document their initial findings. It will assist them in the creation of case 
+ * files to document the remains that they find.
  */
 public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	WindowListener
 {
     // Create new arrayList to hold caseNumbers
-
     private ArrayList<CaseInfo> caseArray = new ArrayList<CaseInfo>();
 
     /**
-     * Creates new form FACEStart GUI
+     * Default Constructor that populates the retrieve case comboBox and sets
+     * all listeners.
+     * Creates new form FACEStart
      */
     public FACEStart()
     {
@@ -33,11 +39,13 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     *
-     * @param casefile
+     * Reads case.dat and creates an arrayList from the contents, then it adds
+     * those contents to the comboBox.
+     * @param casefile the data file used to create the array
      */
     private void createListArray(String casefile)
     {
+	// Try to read casefile
 	try
 	{
 	    // Create new scanner to read the case.dat file
@@ -49,14 +57,15 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 		// Create an array of fields using | as a delimiter
 		String[] fields = record.split("\\s*\\|\\s*");
 		// Create caseInfo opjects and add them to caseArray
-		CaseInfo caseInfo = new CaseInfo(fields[0], Integer.parseInt(fields[1]), fields[2],
-			Integer.parseInt(fields[3]), fields[4]);
+		CaseInfo caseInfo = new CaseInfo(fields[0], Integer.parseInt(fields[1]), 
+			fields[2], Integer.parseInt(fields[3]), fields[4]);
 		caseArray.add(caseInfo);
 	    }
 	    fileIn.close();
+	// Display warning if reading of case.dat is unsuccessful   
 	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this, "Error:\n" + ex.toString(),
+	    JOptionPane.showMessageDialog(this, "There was an error reading case.dat\n" + ex.toString(),
 		    "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	// Loop through the caseArray adding the caseNumbers to ddlRetrieve
@@ -67,14 +76,15 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     *
-     * @param event
+     * Receives the event and performs actions depending on where the event originated.
+     * @param event the event created from the GUI
      */
     @Override
     public void actionPerformed(ActionEvent event)
     {
+	// Create object for the source of the event
 	Object source = event.getSource();
-
+	// Check for source of event
 	if (source == btnCreate)
 	{
 	    // Create an instance of FACECaseDetails and dispose of current window
@@ -88,7 +98,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 	    if (ddlRetrieve.getSelectedIndex() > 0)
 	    {
 		// Create an instance of FACECaseSummary and dispose of current window
-		FACECaseSummary faceSummary = new FACECaseSummary((String) ddlRetrieve.getSelectedItem());
+		FACECaseSummary faceSummary = new FACECaseSummary((String) 
+			ddlRetrieve.getSelectedItem());
 		faceSummary.pack();
 		faceSummary.setVisible(true);
 		this.dispose();
@@ -97,13 +108,13 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     *
-     * @param event
+     * Called when the user closes the window.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowClosing(WindowEvent event)
     {
-	// Confirm that user wants to exit program when they click the X
+	// Confirm that user wants to exit program when they click the close button
 	int exit = JOptionPane.showConfirmDialog(this, "Do you want to close FACE?",
 		"Close FACE", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
 	if (exit == JOptionPane.YES_OPTION)
@@ -113,8 +124,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is not active.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowDeactivated(WindowEvent event)
@@ -122,8 +133,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is activated.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowActivated(WindowEvent event)
@@ -131,8 +142,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is brought back from being minimized.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowDeiconified(WindowEvent event)
@@ -140,8 +151,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is minimized.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowIconified(WindowEvent event)
@@ -149,8 +160,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is disposed.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowClosed(WindowEvent event)
@@ -158,8 +169,8 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }
 
     /**
-     * 
-     * @param event
+     * Called when the window is first opened.
+     * @param event the event created from closing the window
      */
     @Override
     public void windowOpened(WindowEvent event)
@@ -227,6 +238,7 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
     }// </editor-fold>//GEN-END:initComponents
 
     /**
+     * Main method for the FACE program.
      * @param args the command line arguments
      */
     public static void main(String args[])

@@ -1,10 +1,14 @@
 package prog24178.project;
 
 /**
- * Name: Mikkel Harris [programmer #2's name, if applicable] [programmer #3's
- * name, if applicable] File: Employee.java Other Files in this Project:
- * FullTimeEmployee.java PartTimeEmployee.java CommissionEmployee.java
- * EmpGui.java Main class: Main.java
+ * Name: Mikkel Harris 
+ * File: BoneInfo.java 
+ * Other Files in this Project:
+ *	FACECaseDetails.java 
+ *	FACECaseSummary.java 
+ *	FACEBoneDetails.java
+ *	CaseInfo.java
+ * Main class: FACEStart.java 
  */
 public class BoneInfo
 {
@@ -16,21 +20,22 @@ public class BoneInfo
     private boolean foundStatus;
 
     /**
-     * 
+     * Default constructor of BoneInfo objects
      */
     public BoneInfo()
     {
     }
 
     /**
-     * 
-     * @param caseNumber
-     * @param bodyRegion
-     * @param boneName
-     * @param condition
-     * @param foundStatus
+     * Constructor of boneInfo object that takes parameters
+     * @param caseNumber the case number for the bone
+     * @param bodyRegion the body region  for the bone 
+     * @param boneName the name of the bone
+     * @param condition the condition of the bone
+     * @param foundStatus the found status of the bone
      */
-    public BoneInfo(String caseNumber, String bodyRegion, String boneName, String condition, boolean foundStatus)
+    public BoneInfo(String caseNumber, String bodyRegion, String boneName, 
+	    String condition, boolean foundStatus)
     {
 	setCaseNumber(caseNumber);
 	setBodyRegion(bodyRegion);
@@ -40,8 +45,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for bodyRegion of the bone 
+     * @return the objects bodyRegion
      */
     public String getBodyRegion()
     {
@@ -49,8 +54,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @param bodyRegion
+     * Setter for bodyRegion of the bone
+     * @param bodyRegion the objects bodyRegion
      */
     public void setBodyRegion(String bodyRegion)
     {
@@ -58,8 +63,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for boneName of the bone 
+     * @return the objects boneName
      */
     public String getBoneName()
     {
@@ -67,8 +72,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @param boneName
+     * Setter for bodyRegion of the bone
+     * @param boneName the objects boneName
      */
     public void setBoneName(String boneName)
     {
@@ -76,8 +81,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the caseNumber of the bone
+     * @return the objects caseNumber
      */
     public String getCaseNumber()
     {
@@ -85,8 +90,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @param caseNumber
+     * Setter for the caseNumber of the bone
+     * @param caseNumber the objects caseNumber
      */
     public void setCaseNumber(String caseNumber)
     {
@@ -94,8 +99,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the condition of the bone
+     * @return the objects condition
      */
     public String getCondition()
     {
@@ -103,8 +108,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @param condition
+     * Setter for the condition of the bone
+     * @param condition the objects condition
      */
     public void setCondition(String condition)
     {
@@ -112,8 +117,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the foundStatus of the bone
+     * @return the objects foundStatus
      */
     public boolean isFoundStatus()
     {
@@ -121,8 +126,8 @@ public class BoneInfo
     }
 
     /**
-     * 
-     * @param foundStatus
+     * Setter for the foundStatus of the bone
+     * @param foundStatus the objects foundStatus
      */
     public void setFoundStatus(boolean foundStatus)
     {
@@ -130,11 +135,13 @@ public class BoneInfo
     }
     
     /**
-     * 
-     * @return
+     * Custom delimited toString of the bone
+     * @return delimited toString for the object
      */
     public String toFileString()
     {
-	return getCaseNumber() + " | " + getBodyRegion() + " | " + getBoneName() + " | " + getCondition() + " | " + isFoundStatus() + " | endOfLine\n";
+	return getCaseNumber() + " | " + getBodyRegion() + " | " + getBoneName() 
+		+ " | " + getCondition() + " | " + isFoundStatus() 
+		+ " | endOfLine\n";
     }
 }

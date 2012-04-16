@@ -1,14 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package prog24178.project;
 
 /**
- * Name: Mikkel Harris [programmer #2's name, if applicable] [programmer #3's
- * name, if applicable] File: Employee.java Other Files in this Project:
- * FullTimeEmployee.java PartTimeEmployee.java CommissionEmployee.java
- * EmpGui.java Main class: Main.java
+ * Name: Mikkel Harris 
+ * File: CaseInfo.java
+ * Other Files in this Project:
+ *	FACECaseDetails.java 
+ *	FACECaseSummary.java 
+ *	FACEBoneDetails.java
+ *	BoneInfo.java
+ * Main class: FACEStart.java 
  */
 public class CaseInfo
 {
@@ -20,21 +20,22 @@ public class CaseInfo
     
     
     /**
-     * 
+     * Default constructor of caseInfo objects
      */
     public CaseInfo()
     {
     }
     
     /**
-     * 
-     * @param caseNumber
-     * @param caseDateDay
-     * @param caseDateMonth
-     * @param caseDateYear
-     * @param caseLocation
+     * Constructor of caseInfo objects that takes parameters
+     * @param caseNumber the caseNumber of the case
+     * @param caseDateDay the day of the case
+     * @param caseDateMonth the month of the case
+     * @param caseDateYear the year of the case
+     * @param caseLocation the location of the case
      */
-    public CaseInfo(String caseNumber, int caseDateDay, String caseDateMonth, int caseDateYear, String caseLocation)
+    public CaseInfo(String caseNumber, int caseDateDay, String caseDateMonth, 
+	    int caseDateYear, String caseLocation)
     {
 	setCaseNum(caseNumber);
 	setCaseDateDay(caseDateDay);
@@ -45,8 +46,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the day of the case
+     * @return the objects day
      */
     public int getCaseDateDay()
     {
@@ -54,8 +55,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @param caseDateDay
+     * Setter for the day of the case
+     * @param caseDateDay the objects day
      */
     public void setCaseDateDay(int caseDateDay)
     {
@@ -63,8 +64,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the month of the case
+     * @return the objects month
      */
     public String getCaseDateMonth()
     {
@@ -72,8 +73,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @param caseDateMonth
+     * Setter for the month of the case
+     * @param caseDateMonth the objects month
      */
     public void setCaseDateMonth(String caseDateMonth)
     {
@@ -81,8 +82,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the year of the case
+     * @return the objects year
      */
     public int getCaseDateYear()
     {
@@ -90,8 +91,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @param caseDateYear
+     * Setter for the year of the case
+     * @param caseDateYear the objects year
      */
     public void setCaseDateYear(int caseDateYear)
     {
@@ -99,8 +100,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the location of the case
+     * @return the objects location
      */
     public String getCaseLocation()
     {
@@ -108,8 +109,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @param caseLocation
+     * Setter for the location of the case
+     * @param caseLocation the objects location
      */
     public void setCaseLocation(String caseLocation)
     {
@@ -117,8 +118,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @return
+     * Getter for the caseNumber of the case
+     * @return the objects caseNumber
      */
     public String getCaseNum()
     {
@@ -126,8 +127,8 @@ public class CaseInfo
     }
 
     /**
-     * 
-     * @param caseNum
+     * Setter for the caseNumber of the case
+     * @param caseNum the objects caseNumber
      */
     public void setCaseNum(String caseNum)
     {
@@ -135,12 +136,13 @@ public class CaseInfo
     }
     
     /**
-     * 
-     * @return
+     * Custom delimited toString of the case
+     * @return delimited toString for the object
      */
     public String toFileString()
     {
-	return getCaseNum() + " | " + getCaseDateDay() + " | " + getCaseDateMonth() + " | " + getCaseDateYear() + " | " + getCaseLocation() + "\n";
+	return getCaseNum() + " | " + getCaseDateDay() + " | " + getCaseDateMonth() 
+		+ " | " + getCaseDateYear() + " | " + getCaseLocation() + "\n";
     }
     
 }
