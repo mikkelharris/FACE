@@ -67,7 +67,7 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 	    boneFile = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/bones.dat", true)));
 	} 
-	catch (Exception ex)
+	catch (IOException ex)
 	{
 	    // display an error dialog
 	    JOptionPane.showMessageDialog(this,"Error accessing bones.dat:\n"
@@ -149,6 +149,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 		    }   
 		}
 	    }
+	    // If nothing selected clear text field
+	    else 
+	    {
+		txtFDetails.setText("");
+	    }
 	}
 	else if (source == lstNFRegion)
 	{
@@ -166,6 +171,11 @@ public class FACEBoneDetails extends javax.swing.JFrame implements
 			txtNFDetails.setText(bone.getCondition());
 		    }   
 		}
+	    }
+	    // If nothing selected clear text field
+	    else 
+	    {
+		txtFDetails.setText("");
 	    }
 	}
     }

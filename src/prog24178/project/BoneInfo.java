@@ -56,10 +56,18 @@ public class BoneInfo
     /**
      * Setter for bodyRegion of the bone
      * @param bodyRegion the objects bodyRegion
+     * @throws IllegalArgumentException  if bodyRegion is null
      */
-    public void setBodyRegion(String bodyRegion)
+    public void setBodyRegion(String bodyRegion) throws IllegalArgumentException
     {
-	this.bodyRegion = bodyRegion;
+	if (bodyRegion != null)
+	{
+	    this.bodyRegion = bodyRegion;
+	}
+	else 
+	{
+	    throw new IllegalArgumentException("Body region is empty.");
+	}
     }
 
     /**
@@ -74,10 +82,18 @@ public class BoneInfo
     /**
      * Setter for bodyRegion of the bone
      * @param boneName the objects boneName
+     * @throws IllegalArgumentException  if boneName is null
      */
-    public void setBoneName(String boneName)
+    public void setBoneName(String boneName) throws IllegalArgumentException
     {
-	this.boneName = boneName;
+	if (boneName != null)
+	{
+	    this.boneName = boneName;
+	}
+	else 
+	{
+	    throw new IllegalArgumentException("Bone Name is empty.");
+	}
     }
 
     /**
@@ -92,10 +108,18 @@ public class BoneInfo
     /**
      * Setter for the caseNumber of the bone
      * @param caseNumber the objects caseNumber
+     * @throws IllegalArgumentException  if caseNumber is null
      */
-    public void setCaseNumber(String caseNumber)
+    public void setCaseNumber(String caseNumber) throws IllegalArgumentException
     {
-	this.caseNumber = caseNumber;
+	if (caseNumber != null)
+	{
+	    this.caseNumber = caseNumber;
+	}
+	else 
+	{
+	    throw new IllegalArgumentException("Case Number is empty.");
+	}
     }
 
     /**
@@ -110,10 +134,18 @@ public class BoneInfo
     /**
      * Setter for the condition of the bone
      * @param condition the objects condition
+     * @throws IllegalArgumentException  if condition is null
      */
-    public void setCondition(String condition)
+    public void setCondition(String condition) throws IllegalArgumentException
     {
-	this.condition = condition;
+	if (condition != null)
+	{
+	    this.condition = condition;
+	}
+	else 
+	{
+	    throw new IllegalArgumentException("Bone Condition is empty.");
+	}
     }
 
     /**
@@ -128,10 +160,18 @@ public class BoneInfo
     /**
      * Setter for the foundStatus of the bone
      * @param foundStatus the objects foundStatus
+     * @throws IllegalArgumentException  if foundStatus is not a boolean
      */
-    public void setFoundStatus(boolean foundStatus)
+    public void setFoundStatus(boolean foundStatus) throws IllegalArgumentException
     {
-	this.foundStatus = foundStatus;
+	if (foundStatus == true || foundStatus == false)
+	{
+	    this.foundStatus = foundStatus;
+	}
+	else 
+	{
+	    throw new IllegalArgumentException("Found status is not a boolean.");
+	}
     }
     
     /**

@@ -223,19 +223,476 @@
 4May1953test | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 4May1953test | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 4May1953test | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Parietal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Parietal R | casf
+afsa f
+afs
+af | true | endOfLine
+3May1954testinfo | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3May1954testinfo | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Parietal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Parietal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Maxilla L | adsf a | true | endOfLine
+1January1950asga | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+1January1950asga | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Parietal L | at a 
 a 
 a a
  fsa a 
 a sf a | true | endOfLine
-3May1954test at a | Head | Parietal R | Please enter the condition of the bone. | false | endOfLine
+3May1954test at a | Head | Parietal R | asgfa a
+as | true | endOfLine
 3May1954test at a | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
-3May1954test at a | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+3May1954test at a | Head | Mandible | asfa
+af
+afs fasf aas
+a afs | true | endOfLine
 3May1954test at a | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
@@ -452,6 +909,681 @@ a sf a | true | endOfLine
 3May1954test at a | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test at a | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Parietal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Parietal R | afd | true | endOfLine
+2May1954testclose | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+2May1954testclose | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Parietal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Parietal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Occipital | af | true | endOfLine
+5April1955test close | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+5April1955test close | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Parietal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Parietal R | asf | true | endOfLine
+3April1953asga | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Temporal R | asf af af asf | true | endOfLine
+3April1953asga | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+3April1953asga | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test test | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
 3May1954test test | Head | Parietal L | Please enter the condition of the bone. | true | endOfLine
 3May1954test test | Head | Parietal R | Please enter the condition of the bone. | false | endOfLine
@@ -677,3 +1809,228 @@ a sf a | true | endOfLine
 3May1954test test | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test test | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
 3May1954test test | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Frontal | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Parietal L | asf af | true | endOfLine
+4April1953asfa faf | Head | Parietal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Temporal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Temporal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Occipital | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Sphenoid | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Ethmoid | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Mandible | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Maxilla L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Maxilla R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Palatine L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Palatine R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Zygomatic L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Zygomatic R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Nasal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Nasal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Lacrimal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Lacrimal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Vomer | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Inferior Nasal Conchae L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Inferior Nasal Conchae R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Malleus L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Malleus R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Incus L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Incus R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Stapes L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Stapes R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Head | Hyoid | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Scapula L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Scapula R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Clavicle L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Clavicle R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Sternum Body | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Manubrium | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Xiphoid Process | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 12 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 12 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 11 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 11 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 10 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 10 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 9 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 9 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 8 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 8 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 7 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 7 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 6 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 6 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 5 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 5 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 4 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 4 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 3 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 3 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 2 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 2 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 1 R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Torso | Rib 1 L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C1 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C2 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C3 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C4 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C5 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C6 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | C7 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T1 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T2 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T3 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T4 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T5 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T6 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T7 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T8 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T9 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T10 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T11 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | T12 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | L1 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | L2 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | L3 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | L4 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Spine | L5 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Sacrum 1 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Sacrum 2 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Sacrum 3 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Sacrum 4 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Sacrum 5 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Coccyx 1 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Coccyx 2 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Coccyx 3 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Coccyx 4 | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Os Coxae L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Os Coxae R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Ilium R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Ilium L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Ischium L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Ischium R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Pubis L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Pelvis | Pubis R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Arm | Humerus R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Arm | Radius R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Arm | Ulna R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Arm | Humerus L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Arm | Radius L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Arm | Ulna L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Scaphoid R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Lunate R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Triquetrum R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Pisiform R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Trapezium R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Trapezoid R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Capitate R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | Hamate R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 1st Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 2nd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 3rd Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 4th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 5th Metacarpal R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 1st Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 2nd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 3rd Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 4th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 5th Proximal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 1st Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 2nd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 3rd Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 4th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 5th Intermediate Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 1st Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 2nd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 3rd Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 4th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Hand | 5th Distal Phalanx R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Scaphoid L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Lunate L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Triquetrum L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Pisiform L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Trapezium L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Trapezoid L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Capitate L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | Hamate L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 1st Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 2nd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 3rd Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 4th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 5th Metacarpal L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 1st Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 2nd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 3rd Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 4th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 5th Proximal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 1st Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 2nd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 3rd Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 4th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 5th Intermediate Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 1st Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 2nd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 3rd Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 4th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Hand | 5th Distal Phalanx L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Leg | Femur R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Leg | Patella R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Leg | Tibia R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Leg | Fibula R | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Leg | Femur L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Leg | Patella L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Leg | Tibia L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Leg | Fibula L | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Calcaneus RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Talus RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Navicular RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Medial Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Intermediate Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Lateral Cuneiform RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | Cuboid Bone RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 1st Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 2nd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 3rd Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 4th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 5th Metatarsal RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 1st Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 2nd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 3rd Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 4th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 5th Proximal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 1st Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 2nd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 3rd Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 4th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 5th Intermediate Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 1st Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 2nd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 3rd Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 4th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Right Foot | 5th Distal Phalanx RF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Calcaneus LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Talus LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Navicular LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Medial Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Intermediate Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Lateral Cuneiform LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | Cuboid Bone LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 1st Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 2nd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 3rd Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 4th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 5th Metatarsal LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 1st Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 2nd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 3rd Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 4th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 5th Proximal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 1st Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 2nd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 3rd Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 4th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 5th Intermediate Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 1st Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 2nd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 3rd Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 4th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine
+4April1953asfa faf | Left Foot | 5th Distal Phalanx LF | Please enter the condition of the bone. | false | endOfLine

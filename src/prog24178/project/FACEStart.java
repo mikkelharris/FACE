@@ -62,10 +62,15 @@ public class FACEStart extends javax.swing.JFrame implements ActionListener,
 		caseArray.add(caseInfo);
 	    }
 	    fileIn.close();
+	    fileIn = null;
 	// Display warning if reading of case.dat is unsuccessful   
-	} catch (Exception ex)
+	} catch (IOException ex)
 	{
 	    JOptionPane.showMessageDialog(this, "There was an error reading case.dat\n" + ex.toString(),
+		    "Error", JOptionPane.ERROR_MESSAGE);
+	}catch (Exception ex)
+	{
+	    JOptionPane.showMessageDialog(this, "There was an error creating the arrayList\n" + ex.toString(),
 		    "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	// Loop through the caseArray adding the caseNumbers to ddlRetrieve

@@ -87,18 +87,6 @@ public class FACECaseSummary extends javax.swing.JFrame implements
 	{
 	    boneFileTemp = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/bonesTemp.dat", false)));
-
-	} catch (Exception ex)
-	{
-	    // display an error dialog
-	    JOptionPane.showMessageDialog(this,
-		    "Error accessing bonesTemp.dat:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
-	}
-	// Try reading the bones file and creating arrays
-	try
-	{
 	    Scanner fileIn = new Scanner(new File(casefile));
 	    // Use "endOfLine" as the delimiter
 	    fileIn.useDelimiter("endOfLine\n");
@@ -122,17 +110,20 @@ public class FACECaseSummary extends javax.swing.JFrame implements
 		    completeBoneArray.add(bone);
 		}
 	    }
+	    boneFileTemp.close();
 	    fileIn.close();
 	    fileIn = null;
-	// Display dialog with error
+	} catch (IOException ex)
+	{
+	    // display an error dialog
+	    JOptionPane.showMessageDialog(this,
+		    "There was an error accessing bonesTemp.dat:\n"+ ex.toString(), 
+		    "Error", JOptionPane.ERROR_MESSAGE);
 	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this,
-		    "Error extracting bones from bones.dat:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error creating bones objects:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
-	boneFileTemp.close();
     }
     /**
      * Appends data to the bones file
@@ -144,18 +135,7 @@ public class FACECaseSummary extends javax.swing.JFrame implements
 	{
 	    boneFileAppend = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/bones.dat", true)));
-
-	} catch (Exception ex)
-	{
-	    // display an error dialog
-	    JOptionPane.showMessageDialog(this,
-		    "Error accessing data file:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
-	}
-	// Try scanning the bonesTemp file
-	try
-	{
+	    // Try scanning the bonesTemp file
 	    Scanner fileIn = new Scanner(new File("data/bonesTemp.dat"));
 	    // Use "endOfLine" as the delimiter
 	    fileIn.useDelimiter("endOfLine\n");
@@ -171,12 +151,18 @@ public class FACECaseSummary extends javax.swing.JFrame implements
 		// Add bone to arrayList
 		boneArrayListTemp.add(bone);
 	    }
+	    fileIn.close();
+	    fileIn = null;
+
+	} catch (IOException ex)
+	{
+	    // display an error dialog
+	    JOptionPane.showMessageDialog(this, "Error accessing data file bones.dat:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this,
-		    "Error creating temp file:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error updating bones.dat:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	// Add bone to bones file
 	for (int i = 0; i < boneArrayListTemp.size(); i++)
@@ -196,19 +182,21 @@ public class FACECaseSummary extends javax.swing.JFrame implements
 	{
 	    boneFileOverwrite = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/bones.dat", false)));
+	    // Overwrite bones file with the arryList without the current case
+	    for (int i = 0; i < completeBoneArray.size(); i++)
+	    {
+		boneFileOverwrite.print(completeBoneArray.get(i).toFileString());
+	    }
+	    boneFileOverwrite.close();
+	} catch (IOException ex)
+	{
+	    JOptionPane.showMessageDialog(this, "Error accessing bones.dat:\n" 
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this,
-		    "Error overwriting bones.dat:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error overwriting bones.dat:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
-	// Overwrite bones file with the arryList without the current case
-	for (int i = 0; i < completeBoneArray.size(); i++)
-	{
-	    boneFileOverwrite.print(completeBoneArray.get(i).toFileString());
-	}
-	boneFileOverwrite.close();
     }
 
     /**

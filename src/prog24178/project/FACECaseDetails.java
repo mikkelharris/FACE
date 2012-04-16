@@ -63,13 +63,11 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    caseLog = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/case.dat", true)));
 
-	} catch (Exception ex)
+	} catch (IOException ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(this,
-		    "Error accessing case.dat:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error accessing case.dat:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	// Try connecting to bones.dat
 	try
@@ -77,13 +75,11 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	    boneLog = new PrintWriter(new BufferedWriter(new 
 		    FileWriter("data/bones.dat", true)));
 
-	} catch (Exception ex)
+	} catch (IOException ex)
 	{
 	    // display an error dialog
-	    JOptionPane.showMessageDialog(this,
-		    "Error accessing bones.dat:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error accessing bones.dat:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
     }
     /**
@@ -132,6 +128,8 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 		// Add bone object to arrayList
 		boneArrayList.add(bone);
 	    }
+	    fileIn.close();
+	    fileIn = null;
 	    // Loop through arraylist changing template caseNumer to the new caseNumber
 	    for (int i = 0; i < boneArrayList.size(); i++)
 	    {
@@ -140,10 +138,8 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 	// Catch exception and display dialog    
 	} catch (Exception ex)
 	{
-	    JOptionPane.showMessageDialog(this,
-		    "Error reading template:\n"
-		    + ex.toString(), "Error",
-		    JOptionPane.ERROR_MESSAGE);
+	    JOptionPane.showMessageDialog(this, "Error creating bone objects:\n"
+		    + ex.toString(), "Error", JOptionPane.ERROR_MESSAGE);
 	}
 	return boneArrayList;
     }
@@ -197,7 +193,9 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 			    printBonesArrayList(createBones(caseNum));
 			    // Close printwriters
 			    caseLog.close();
+			    caseLog = null;
 			    boneLog.close();
+			    boneLog = null;
 			    // Create an instance of FACECaseSummary and dispose of current window
 			    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
 			    faceCaseSummary.pack();
@@ -311,7 +309,9 @@ public class FACECaseDetails extends javax.swing.JFrame implements ActionListene
 			    printBonesArrayList(createBones(caseNum));
 			    // Close printwriters
 			    caseLog.close();
+			    caseLog = null;
 			    boneLog.close();
+			    boneLog = null;
 			    // Create an instance of FACECaseSummary and dispose of current window
 			    FACECaseSummary faceCaseSummary = new FACECaseSummary(caseNum);
 			    faceCaseSummary.pack();
